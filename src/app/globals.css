@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+
+html, body {
+  background-color: #FFF8F1;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -84,4 +89,26 @@ li:hover {
   background-image: url("/public/img/background.png");
   background-size: 100%;
   background-position: 100vh;
+}
+
+#text-sandang {
+  letter-spacing: -0.02em;
+
+  color: #F6EB3A;
+  text-shadow: -7px 7px 0px #22603D;
+  /* -webkit-text-stroke: 1px #22603D; */
+  -webkit-text-stroke-width: 2px;
+}
+
+#text-tiktok {
+  color: #0F4F7E;
+  text-shadow: -2px 2px 0px #F5252D;
+}
+
+#text-product {
+  -webkit-text-stroke: 1px #F6EB3A;
+  color: #287B4C;
+  text-shadow: -4px 2px 0px #F6EB3A;
+  font-weight: 700;
+  -webkit-text-stroke-width: 2px;
 }

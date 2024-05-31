@@ -3,11 +3,17 @@ import Image from "next/image";
 import { Laila } from "next/font/google";
 import { Josefin_Sans } from "next/font/google";
 import Link from "next/link";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+} from "@/components/ui/carousel";
+import Footer from "@/components/footer";
 
 const Josefin = Josefin_Sans({ subsets: ["latin"] });
 const LailaFont = Laila({
   subsets: ["latin"],
-  weight: "700",
+  weight: ["700", "300", "500"],
 });
 
 export default function Home() {
@@ -42,7 +48,7 @@ export default function Home() {
                 alt=""
                 className="mx-auto"
               />
-              <h1 className={`${LailaFont.className} text-5xl`}>
+              <h1 className={`${LailaFont.className} text-5xl font-bold`}>
                 Sandang Gurau
               </h1>
               <p className={`${Josefin.className} mt-2`}>
@@ -51,7 +57,7 @@ export default function Home() {
               <div className=" mt-4">
                 <Link
                   href={""}
-                  className={`${LailaFont.className} rounded-xl border-2 text-[#0C542B] border-[#0C542B] px-3 py-2`}>
+                  className={`${LailaFont.className} rounded-xl border-2 text-[#0C542B] border-[#0C542B] px-3 py-2 hover:bg-[#0C542B] hover:text-white`}>
                   Order Now
                 </Link>
               </div>
@@ -75,9 +81,215 @@ export default function Home() {
           />
         </div>
       </section>
-      <section className="" id="Tentang-Kami">
-        <h1>Haloo</h1>
+      <section
+        className=""
+        id="Tentang-Kami"
+        style={{
+          backgroundImage: "url(/img/background.png)",
+          width: "100%",
+          backgroundSize: "cover",
+        }}>
+        <div className="container py-[15rem] lg:flex gap-10">
+          <Image
+            src={"/img/logo.png"}
+            width={500}
+            height={500}
+            sizes="100vh"
+            alt=""
+            className="mx-auto bg-white rounded-[100%]"
+          />
+          <div className={`${LailaFont.className}`}>
+            <h1 id="text-sandang" className={`text-[71px] font-bold`}>
+              Sandang Gurau
+            </h1>
+            <p className="text-white font-[300] my-4">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Distinctio, officiis, iure rem veniam blanditiis, corporis aliquam
+              cumque beatae quasi nostrum deserunt. Quo ut nam quam animi
+              perferendis error alias voluptates!
+            </p>
+            <div className="mt-10">
+              <Link
+                href={""}
+                className={`rounded-xl border-2 text-white bg-[#F5252D] border-[#F6EB3A] px-3 py-2 hover:bg-[#F6EB3A] hover:text-black hover:border-[#F5252D]`}>
+                Take a Look
+              </Link>
+            </div>
+          </div>
+        </div>
       </section>
+      <section
+        className=""
+        style={{
+          backgroundImage: "url(/img/background2.png)",
+          width: "100%",
+          backgroundSize: "cover",
+        }}>
+        <div className="container py-[5rem]">
+          <div className={`${LailaFont.className} text-center`}>
+            <h1 id="text-tiktok" className={`text-[52px] font-bold`}>
+              Tiktok Video
+            </h1>
+            <p className="font-[300] my-4 w-1/2 mx-auto">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Distinctio, officiis, iure rem veniam blanditiis, corporis aliquam
+              cumque beatae quasi nostrum deserunt
+            </p>
+          </div>
+          <div className="grid grid-cols-4 gap-3">
+            <div className="shadow-xl">
+              <Image
+                src={"/img/img2.jpg"}
+                width={350}
+                height={350}
+                sizes="100vh"
+                alt="Image 1"
+                className="rounded-xl border-2 border-[#F5252D] mx-auto"
+              />
+            </div>
+            <div className="shadow-xl">
+              <Image
+                src={"/img/img2.jpg"}
+                width={350}
+                height={350}
+                sizes="100vh"
+                alt="Image 1"
+                className="rounded-xl border-2 border-[#F5252D] mx-auto"
+              />
+            </div>
+            <div className="shadow-xl">
+              <Image
+                src={"/img/img2.jpg"}
+                width={350}
+                height={350}
+                sizes="100vh"
+                alt="Image 1"
+                className="rounded-xl border-2 border-[#F5252D] mx-auto"
+              />
+            </div>
+            <div className="shadow-xl">
+              <Image
+                src={"/img/img2.jpg"}
+                width={350}
+                height={350}
+                sizes="100vh"
+                alt="Image 1"
+                className="rounded-xl border-2 border-[#F5252D] mx-auto"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        className=""
+        style={{
+          backgroundImage: "url(/img/background3.png)",
+          width: "100%",
+          backgroundSize: "cover",
+        }}>
+        <div className="container py-[5rem]">
+          <div className={`${LailaFont.className} text-center`}>
+            <h1 id="text-product" className={`text-[52px] font-bold`}>
+              Our Product
+            </h1>
+            <p className="font-[300] my-4 w-1/2 mx-auto text-white">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Distinctio, officiis, iure rem veniam blanditiis, corporis aliquam
+              cumque beatae quasi nostrum deserunt
+            </p>
+          </div>
+          <Carousel className="mt-7">
+            <CarouselContent>
+              <CarouselItem className="md:basis-1/3 lg:basis-1/5">
+                <div className="inline-block overflow-hidden rounded-xl">
+                  <Image
+                    src={"/img/baju1.jpg"}
+                    width={450}
+                    height={450}
+                    sizes="100vh"
+                    alt=""
+                    className="rounded-xl border-2 border-[#F5252D] mx-auto hover:scale-110 duration-500 transition-transform object-none h-96"
+                  />
+                </div>
+                <div
+                  className={`${LailaFont.className} text-left text-white mt-3`}>
+                  <h2>Kaos U2 x Chinese</h2>
+                  <p className="font-[300] mt-3">Rp. 169.000</p>
+                </div>
+              </CarouselItem>
+              <CarouselItem className="md:basis-1/3 lg:basis-1/5">
+                <div className="inline-block overflow-hidden rounded-xl">
+                  <Image
+                    src={"/img/baju1.jpg"}
+                    width={450}
+                    height={450}
+                    sizes="100vh"
+                    alt=""
+                    className="rounded-xl border-2 border-[#F5252D] mx-auto hover:scale-110 duration-500 transition-transform object-none h-96"
+                  />
+                </div>
+                <div
+                  className={`${LailaFont.className} text-left text-white mt-3`}>
+                  <h2>Kaos U2 x Chinese</h2>
+                  <p className="font-[300] mt-3">Rp. 169.000</p>
+                </div>
+              </CarouselItem>
+              <CarouselItem className="md:basis-1/3 lg:basis-1/5">
+                <div className="inline-block overflow-hidden rounded-xl">
+                  <Image
+                    src={"/img/baju1.jpg"}
+                    width={450}
+                    height={450}
+                    sizes="100vh"
+                    alt=""
+                    className="rounded-xl border-2 border-[#F5252D] mx-auto hover:scale-110 duration-500 transition-transform object-none h-96"
+                  />
+                </div>
+                <div
+                  className={`${LailaFont.className} text-left text-white mt-3`}>
+                  <h2>Kaos U2 x Chinese</h2>
+                  <p className="font-[300] mt-3">Rp. 169.000</p>
+                </div>
+              </CarouselItem>
+              <CarouselItem className="md:basis-1/3 lg:basis-1/5">
+                <div className="inline-block overflow-hidden rounded-xl">
+                  <Image
+                    src={"/img/baju1.jpg"}
+                    width={450}
+                    height={450}
+                    sizes="100vh"
+                    alt=""
+                    className="rounded-xl border-2 border-[#F5252D] mx-auto hover:scale-110 duration-500 transition-transform object-none h-96"
+                  />
+                </div>
+                <div
+                  className={`${LailaFont.className} text-left text-white mt-3`}>
+                  <h2>Kaos U2 x Chinese</h2>
+                  <p className="font-[300] mt-3">Rp. 169.000</p>
+                </div>
+              </CarouselItem>
+              <CarouselItem className="md:basis-1/3 lg:basis-1/5">
+                <div className="inline-block overflow-hidden rounded-xl">
+                  <Image
+                    src={"/img/baju1.jpg"}
+                    width={450}
+                    height={450}
+                    sizes="100vh"
+                    alt=""
+                    className="rounded-xl border-2 border-[#F5252D] mx-auto hover:scale-110 duration-500 transition-transform object-none h-96"
+                  />
+                </div>
+                <div
+                  className={`${LailaFont.className} text-left text-white mt-3`}>
+                  <h2>Kaos U2 x Chinese</h2>
+                  <p className="font-[300] mt-3">Rp. 169.000</p>
+                </div>
+              </CarouselItem>
+            </CarouselContent>
+          </Carousel>
+        </div>
+      </section>
+      <Footer />
     </main>
   );
 }
