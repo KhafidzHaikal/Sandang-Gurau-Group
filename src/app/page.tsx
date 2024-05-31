@@ -139,7 +139,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-3">
             <div className="">
               <Image
-                src={"/img/img2.jpg"}
+                src={"https://i.ibb.co.com/9T6xrtn/img2.jpg"}
                 width={350}
                 height={350}
                 sizes="100vh"
@@ -149,7 +149,7 @@ export default function Home() {
             </div>
             <div className="">
               <Image
-                src={"/img/img2.jpg"}
+                src={"https://i.ibb.co.com/9T6xrtn/img2.jpg"}
                 width={350}
                 height={350}
                 sizes="100vh"
@@ -159,7 +159,7 @@ export default function Home() {
             </div>
             <div className="">
               <Image
-                src={"/img/img2.jpg"}
+                src={"https://i.ibb.co.com/9T6xrtn/img2.jpg"}
                 width={350}
                 height={350}
                 sizes="100vh"
@@ -169,7 +169,7 @@ export default function Home() {
             </div>
             <div className="">
               <Image
-                src={"/img/img2.jpg"}
+                src={"https://i.ibb.co.com/9T6xrtn/img2.jpg"}
                 width={350}
                 height={350}
                 sizes="100vh"
