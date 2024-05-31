@@ -20,8 +20,8 @@ export default function Home() {
   return (
     <main className="">
       <Navbar />
-      <section className="h-screen flex justify-center items-center">
-        <div className="grid lg:grid-cols-3 gap-3">
+      <section className="h-screen flex justify-center items-center container">
+        <div className="grid md:grid-cols-3 gap-3">
           <Image
             src={"https://i.ibb.co.com/9T6xrtn/img2.jpg"}
             width={350}
@@ -39,7 +39,7 @@ export default function Home() {
               alt=""
               className="rounded-xl border-2 border-[#0C542B]"
             />
-            <div className="text-center h-[17.8rem]">
+            <div className="text-center lg:h-[17.8rem]">
               <Image
                 src={"/img/logo.png"}
                 width={250}
@@ -52,9 +52,9 @@ export default function Home() {
                 Sandang Gurau
               </h1>
               <p className={`${Josefin.className} mt-2`}>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Lorem ipsum dolor, sit amet consectetur adipisicing
               </p>
-              <div className=" mt-4">
+              <div className="mt-4 mb-8 md:mb-0">
                 <Link
                   href={""}
                   className={`${LailaFont.className} rounded-xl border-2 text-[#0C542B] border-[#0C542B] px-3 py-2 hover:bg-[#0C542B] hover:text-white`}>
@@ -68,7 +68,7 @@ export default function Home() {
               height={400}
               sizes="100vh"
               alt=""
-              className="rounded-xl border-2 border-[#0C542B]"
+              className="rounded-xl md:hidden lg:flex border-2 border-[#0C542B]"
             />
           </div>
           <Image
@@ -99,7 +99,7 @@ export default function Home() {
             className="mx-auto bg-white rounded-[100%]"
           />
           <div className={`${LailaFont.className}`}>
-            <h1 id="text-sandang" className="text-[40px] lg:text-[71px] font-bold">
+            <h1 id="text-sandang" className="text-[52px] text-center md:text-left lg:text-[71px] font-bold">
               Sandang Gurau
             </h1>
             <p className="text-white font-[300] my-4">
@@ -130,7 +130,7 @@ export default function Home() {
             <h1 id="text-tiktok" className={`text-[52px] font-bold`}>
               Tiktok Video
             </h1>
-            <p className="font-[300] my-4 w-1/2 mx-auto">
+            <p className="font-[300] my-4 md:w-1/2 mx-auto">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Distinctio, officiis, iure rem veniam blanditiis, corporis aliquam
               cumque beatae quasi nostrum deserunt
@@ -192,7 +192,7 @@ export default function Home() {
             <h1 id="text-product" className={`text-[52px] font-bold`}>
               Our Product
             </h1>
-            <p className="font-[300] my-4 w-1/2 mx-auto text-white">
+            <p className="font-[300] my-4 md:w-1/2 mx-auto text-white">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Distinctio, officiis, iure rem veniam blanditiis, corporis aliquam
               cumque beatae quasi nostrum deserunt

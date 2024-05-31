@@ -15,7 +15,7 @@ export default function Navbar() {
             height={150}
             sizes='100vh'
             alt='Sandang Gurau'
-            className='ml-14'
+            className='md:ml-14'
         />
         <ul className={`${Josefin.className} hidden md:flex gap-10`}>
             <li>
