@@ -23,12 +23,12 @@ export default function Home() {
       <section className="h-screen flex justify-center items-center">
         <div className="grid lg:grid-cols-3 gap-3">
           <Image
-            src={"/img/img2.jpg"}
+            src={"https://i.ibb.co.com/9T6xrtn/img2.jpg"}
             width={350}
             height={350}
             sizes="100vh"
             alt="Image 1"
-            className="rounded-xl border-2 border-[#0C542B] mx-auto"
+            className="invisible md:visible rounded-xl border-2 border-[#0C542B] mx-auto"
           />
           <div className="mx-auto text-center">
             <Image
@@ -72,12 +72,12 @@ export default function Home() {
             />
           </div>
           <Image
-            src={"/img/img1.jpg"}
+            src={"https://i.ibb.co.com/Fqqb4fv/img1.jpg"}
             width={350}
             height={350}
             sizes="100vh"
             alt="Image 2"
-            className="rounded-xl border-2 border-[#0C542B] mx-auto"
+            className="invisible md:visible rounded-xl border-2 border-[#0C542B] mx-auto"
           />
         </div>
       </section>
@@ -99,7 +99,7 @@ export default function Home() {
             className="mx-auto bg-white rounded-[100%]"
           />
           <div className={`${LailaFont.className}`}>
-            <h1 id="text-sandang" className={`text-[71px] font-bold`}>
+            <h1 id="text-sandang" className="text-[40px] lg:text-[71px] font-bold">
               Sandang Gurau
             </h1>
             <p className="text-white font-[300] my-4">
@@ -136,8 +136,8 @@ export default function Home() {
               cumque beatae quasi nostrum deserunt
             </p>
           </div>
-          <div className="grid grid-cols-4 gap-3">
-            <div className="shadow-xl">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-3">
+            <div className="">
               <Image
                 src={"/img/img2.jpg"}
                 width={350}
@@ -147,7 +147,7 @@ export default function Home() {
                 className="rounded-xl border-2 border-[#F5252D] mx-auto"
               />
             </div>
-            <div className="shadow-xl">
+            <div className="">
               <Image
                 src={"/img/img2.jpg"}
                 width={350}
@@ -157,7 +157,7 @@ export default function Home() {
                 className="rounded-xl border-2 border-[#F5252D] mx-auto"
               />
             </div>
-            <div className="shadow-xl">
+            <div className="">
               <Image
                 src={"/img/img2.jpg"}
                 width={350}
@@ -167,7 +167,7 @@ export default function Home() {
                 className="rounded-xl border-2 border-[#F5252D] mx-auto"
               />
             </div>
-            <div className="shadow-xl">
+            <div className="">
               <Image
                 src={"/img/img2.jpg"}
                 width={350}
@@ -203,7 +203,7 @@ export default function Home() {
               <CarouselItem className="md:basis-1/3 lg:basis-1/5">
                 <div className="inline-block overflow-hidden rounded-xl">
                   <Image
-                    src={"/img/baju1.jpg"}
+                    src={"https://i.ibb.co.com/WfStm7L/baju1.jpg"}
                     width={450}
                     height={450}
                     sizes="100vh"
@@ -220,7 +220,7 @@ export default function Home() {
               <CarouselItem className="md:basis-1/3 lg:basis-1/5">
                 <div className="inline-block overflow-hidden rounded-xl">
                   <Image
-                    src={"/img/baju1.jpg"}
+                    src={"https://i.ibb.co.com/WfStm7L/baju1.jpg"}
                     width={450}
                     height={450}
                     sizes="100vh"
@@ -237,7 +237,7 @@ export default function Home() {
               <CarouselItem className="md:basis-1/3 lg:basis-1/5">
                 <div className="inline-block overflow-hidden rounded-xl">
                   <Image
-                    src={"/img/baju1.jpg"}
+                    src={"https://i.ibb.co.com/WfStm7L/baju1.jpg"}
                     width={450}
                     height={450}
                     sizes="100vh"
@@ -254,7 +254,7 @@ export default function Home() {
               <CarouselItem className="md:basis-1/3 lg:basis-1/5">
                 <div className="inline-block overflow-hidden rounded-xl">
                   <Image
-                    src={"/img/baju1.jpg"}
+                    src={"https://i.ibb.co.com/WfStm7L/baju1.jpg"}
                     width={450}
                     height={450}
                     sizes="100vh"
@@ -271,7 +271,7 @@ export default function Home() {
               <CarouselItem className="md:basis-1/3 lg:basis-1/5">
                 <div className="inline-block overflow-hidden rounded-xl">
                   <Image
-                    src={"/img/baju1.jpg"}
+                    src={"https://i.ibb.co.com/WfStm7L/baju1.jpg"}
                     width={450}
                     height={450}
                     sizes="100vh"

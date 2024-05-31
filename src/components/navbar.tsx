@@ -17,7 +17,7 @@ export default function Navbar() {
             alt='Sandang Gurau'
             className='ml-14'
         />
-        <ul className={`${Josefin.className} flex gap-10`}>
+        <ul className={`${Josefin.className} hidden md:flex gap-10`}>
             <li>
                 <Link href={""}>Home</Link>
             </li>
