@@ -39,12 +39,12 @@ const Josefin = Josefin_Sans({ subsets: ["latin"] });
 const components: { title: string; href: string; description: string }[] = [
   {
     title: "Tete",
-    href: "/",
+    href: "/tete",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
   },
   {
     title: "Minyma",
-    href: "/",
+    href: "/minyma",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
   },
   {
@@ -54,12 +54,12 @@ const components: { title: string; href: string; description: string }[] = [
   },
   {
     title: "Prboi",
-    href: "/",
+    href: "/prboi",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
   },
   {
     title: "Plain Habit",
-    href: "/",
+    href: "/plain-habit",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
   },
   {
@@ -129,19 +129,19 @@ export default function Navbar() {
                       <DropdownMenuLabel>PRODUCT</DropdownMenuLabel>
                       <DropdownMenuSeparator />
                       <DropdownMenuItem>
-                        <Link href={""}>Tete</Link>
+                        <Link href={"/tete"}>Tete</Link>
                       </DropdownMenuItem>
                       <DropdownMenuItem>
-                        <Link href={""}>Minyma</Link>
+                        <Link href={"/minyma"}>Minyma</Link>
                       </DropdownMenuItem>
                       <DropdownMenuItem>
                         <Link href={"/sandang-gurau"}>Sandang Gurau (Fasion)</Link>
                       </DropdownMenuItem>
                       <DropdownMenuItem>
-                        <Link href={""}>Prboi</Link>
+                        <Link href={"/prboi"}>Prboi</Link>
                       </DropdownMenuItem>
                       <DropdownMenuItem>
-                        <Link href={""}>Plain Habit</Link>
+                        <Link href={"/plain-habit"}>Plain Habit</Link>
                       </DropdownMenuItem>
                       <DropdownMenuItem>
                         <Link href={"/sasfy"}>Sasfy</Link>
@@ -149,7 +149,7 @@ export default function Navbar() {
                     </DropdownMenuContent>
                   </DropdownMenu>
                   <Link
-                    href="#"
+                    href="/about"
                     className="flex w-full items-center py-2 text-lg font-semibold"
                     prefetch={false}>
                     About
@@ -192,7 +192,7 @@ export default function Navbar() {
               </NavigationMenuContent>
             </NavigationMenuItem>
             <NavigationMenuItem className="w-20">
-              <Link href="/" legacyBehavior passHref>
+              <Link href="/about" legacyBehavior passHref>
                 <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                   About
                 </NavigationMenuLink>
