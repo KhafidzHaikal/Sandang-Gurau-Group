@@ -41,15 +41,15 @@ export default function SasfyPage() {
           alt="Image 1"
           className="comp-2 hidden xl:flex"
         />
-        <div className="container text-center">
-          <p className="rounded-2xl border-2 w-[20rem] mx-auto border-black">
+        <div className="container">
+          <p className="hidden sm:flex rounded-2xl justify-center border-2 w-[20rem] mx-auto border-black">
             BISNIS SUKSES WEBSITE SOLUSINYA
           </p>
           <h1
-            className={`text-[40px] md:text-[64px] font-medium md:w-9/12 mx-auto`}>
+            className={`text-[28px] sm:text-[40px] lg:text-[64px] font-medium md:w-9/12 mx-auto text-center`}>
             Tingkatkan Bisnis Anda dengan Memiliki Website Bisnis
           </h1>
-          <p className="md:w-1/2 mx-auto mt-4">
+          <p className="md:w-1/2 text-sm md:text-base mx-auto mt-4 text-center">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut,
             placeat. Numquam magni ipsam obcaecati fuga a asperiores, possimus
             dolorum aperiam? Corrupti id amet dicta fugit obcaecati sed unde
@@ -74,7 +74,7 @@ export default function SasfyPage() {
         className={`${PoppinsFont.className} container my-[4rem]`}
         id="layanan-kami">
         <div className="md:flex justify-between gap-4 mb-10">
-          <h1 className="text-[40px] mb-5 md:mb-0 lg:text-[54px] w-full uppercase font-semibold">
+          <h1 className="text-[40px] mb-5 md:mb-0 lg:text-[54px] w-full uppercase font-semibold text-center md:text-left">
             Layanan Kami
           </h1>
           <p>
@@ -182,7 +182,7 @@ export default function SasfyPage() {
       </section>
       <section className={`${PoppinsFont.className} my-[5rem]`}>
         <div className="container">
-          <h1 className="font-semibold text-[30px] lg:text-[54px] text-center">
+          <h1 className="text-[40px] mb-5 md:mb-0 lg:text-[54px] w-full uppercase font-semibold text-center">
             PORTOPOLIO
           </h1>
           <p className="text-center my-4">
@@ -203,7 +203,7 @@ export default function SasfyPage() {
                   height={500}
                   sizes="100vh"
                   alt="Registrasi Pertamina"
-                  className="mx-auto hover:scale-110 duration-500 transition-transform h-72"
+                  className="mx-auto hover:scale-110 duration-500 transition-transform lg:h-72"
                 />
               </div>
               <p className="mt-4 text-sm">
@@ -224,7 +224,7 @@ export default function SasfyPage() {
                   height={500}
                   sizes="100vh"
                   alt="Praniti"
-                  className="mx-auto hover:scale-110 duration-500 transition-transform h-72"
+                  className="mx-auto hover:scale-110 duration-500 transition-transform lg:h-72"
                 />
               </div>
               <p className="mt-4 text-sm">
@@ -245,7 +245,7 @@ export default function SasfyPage() {
                   height={500}
                   sizes="100vh"
                   alt="Sasfy Dev"
-                  className="mx-auto hover:scale-110 duration-500 transition-transform h-72"
+                  className="mx-auto hover:scale-110 duration-500 transition-transform lg:h-72"
                 />
               </div>
               <p className="mt-4 text-sm">
@@ -259,14 +259,14 @@ export default function SasfyPage() {
         </div>
       </section>
       <section
-        className={`${PoppinsFont.className} my-[3rem] p-[5rem] container`}
+        className={`${PoppinsFont.className} my-[3rem] py-[5rem] container`}
         style={{
           backgroundImage: "url(/img/background_sasfy1.png)",
           width: "100%",
           backgroundSize: "cover",
           borderRadius: "15px",
         }}>
-        <h1 className="text-center font-semibold text-[30px] lg:text-[48px]">
+        <h1 className="text-[40px] mb-5 md:mb-0 lg:text-[54px] w-full uppercase font-semibold text-center">
           Tertarik untuk Membuat Website?
         </h1>
         <p className="text-center my-8">
