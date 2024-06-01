@@ -20,7 +20,7 @@ export default function Home() {
   return (
     <main className="">
       <Navbar />
-      <section className="h-screen flex justify-center items-center container">
+      <section className="h-screen flex items-center justify-center container">
         <div className="grid md:grid-cols-3 gap-3">
           <Image
             src={"https://i.ibb.co.com/9T6xrtn/img2.jpg"}
@@ -28,7 +28,7 @@ export default function Home() {
             height={350}
             sizes="100vh"
             alt="Image 1"
-            className="invisible md:visible rounded-xl border-2 border-[#0C542B] mx-auto"
+            className="hidden md:flex rounded-xl border-2 border-[#0C542B] mx-auto"
           />
           <div className="mx-auto text-center">
             <Image
@@ -77,7 +77,7 @@ export default function Home() {
             height={350}
             sizes="100vh"
             alt="Image 2"
-            className="invisible md:visible rounded-xl border-2 border-[#0C542B] mx-auto"
+            className="hidden md:flex rounded-xl border-2 border-[#0C542B] mx-auto"
           />
         </div>
       </section>

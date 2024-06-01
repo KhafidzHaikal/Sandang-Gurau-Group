@@ -1,36 +1,231 @@
-import Image from 'next/image'
-import Link from 'next/link'
-import React from 'react'
+"use client";
+
+import Image from "next/image";
+import Link from "next/link";
+import React, { useState } from "react";
 import { Josefin_Sans } from "next/font/google";
+import { IoIosArrowDown } from "react-icons/io";
+import { IoMenu } from "react-icons/io5";
+import { cn } from "@/lib/utils";
+import {
+  NavigationMenu,
+  NavigationMenuContent,
+  NavigationMenuItem,
+  NavigationMenuLink,
+  NavigationMenuList,
+  NavigationMenuTrigger,
+  navigationMenuTriggerStyle,
+} from "@/components/ui/navigation-menu";
+import { Button } from "./ui/button";
+import {
+  Sheet,
+  SheetContent,
+  SheetDescription,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from "@/components/ui/sheet";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuLabel,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
 
 const Josefin = Josefin_Sans({ subsets: ["latin"] });
 
+const components: { title: string; href: string; description: string }[] = [
+  {
+    title: "Tete",
+    href: "/",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+  },
+  {
+    title: "Minyma",
+    href: "/",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+  },
+  {
+    title: "Sandang Gurau (Fasion)",
+    href: "/",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+  },
+  {
+    title: "Prboi",
+    href: "/",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+  },
+  {
+    title: "Plain Habit",
+    href: "/",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+  },
+  {
+    title: "Sasfy",
+    href: "/sasfy",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+  },
+];
+
+const SHEET_SIDES = ["top"] as const;
+type SheetSide = (typeof SHEET_SIDES)[number];
 
 export default function Navbar() {
+  const [isDrawerOpen, setIsDrawerOpen] = useState(false);
+
+  const handleDrawerToggle = () => {
+    setIsDrawerOpen(!isDrawerOpen);
+  };
+
   return (
-    <nav className='absolute container top-0 mx-auto py-2 flex justify-between items-center'>
-        <Image 
-            src={"/img/logo.png"}
-            width={150}
-            height={150}
-            sizes='100vh'
-            alt='Sandang Gurau'
-            className='md:ml-14'
+    <nav className="mx-auto py-2 fixed top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+      <div className="flex justify-between items-center container">
+        <Image
+          src={"/img/logo.png"}
+          width={120}
+          height={120}
+          sizes="100vh"
+          alt="Sandang Gurau"
+          className="md:ml-14"
         />
-        <ul className={`${Josefin.className} hidden md:flex gap-10`}>
-            <li>
-                <Link href={""}>Home</Link>
-            </li>
-            <li>
-                <Link href={""}>Video</Link>
-            </li>
-            <li>
-                <Link href={""}>Product</Link>
-            </li>
-            <li>
-                <Link href={""}>About Us</Link>
-            </li>
-        </ul>
+        <div className="lg:hidden">
+          {SHEET_SIDES.map((side) => (
+            <Sheet key={side}>
+              <SheetTrigger asChild>
+                <Button className="bg-transparent hover:bg-transparent">
+                  <IoMenu className="text-2xl text-black" />
+                </Button>
+              </SheetTrigger>
+              <SheetContent side={side}>
+                <SheetHeader>
+                  <SheetTitle>
+                    <Image
+                      src={"/img/logo.png"}
+                      width={120}
+                      height={120}
+                      sizes="100vh"
+                      alt="Sandang Gurau"
+                    />
+                  </SheetTitle>
+                  <Link
+                    href="/"
+                    className="flex w-full items-center py-2 text-lg font-semibold"
+                    prefetch={false}>
+                    Home
+                  </Link>
+                  <Link
+                    href="#"
+                    className="flex w-full items-center py-2 text-lg font-semibold"
+                    prefetch={false}>
+                    Video
+                  </Link>
+                  <DropdownMenu>
+                    <DropdownMenuTrigger className="flex w-full items-center py-2 text-lg font-semibold">
+                      Product
+                    </DropdownMenuTrigger>
+                    <DropdownMenuContent className="w-[20rem]">
+                      <DropdownMenuLabel>PRODUCT</DropdownMenuLabel>
+                      <DropdownMenuSeparator />
+                      <DropdownMenuItem>
+                        <Link href={""}>Tete</Link>
+                      </DropdownMenuItem>
+                      <DropdownMenuItem>
+                        <Link href={""}>Minyma</Link>
+                      </DropdownMenuItem>
+                      <DropdownMenuItem>
+                        <Link href={""}>Sandang Gurau (Fasion)</Link>
+                      </DropdownMenuItem>
+                      <DropdownMenuItem>
+                        <Link href={""}>Prboi</Link>
+                      </DropdownMenuItem>
+                      <DropdownMenuItem>
+                        <Link href={""}>Plain Habit</Link>
+                      </DropdownMenuItem>
+                      <DropdownMenuItem>
+                        <Link href={"/sasfy"}>Sasfy</Link>
+                      </DropdownMenuItem>
+                    </DropdownMenuContent>
+                  </DropdownMenu>
+                  <Link
+                    href="#"
+                    className="flex w-full items-center py-2 text-lg font-semibold"
+                    prefetch={false}>
+                    About
+                  </Link>
+                </SheetHeader>
+              </SheetContent>
+            </Sheet>
+          ))}
+        </div>
+        <NavigationMenu
+          className={`${Josefin.className} hidden lg:flex xl:mr-16`}>
+          <NavigationMenuList>
+            <NavigationMenuItem className="w-20">
+              <Link href="/" legacyBehavior passHref>
+                <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                  Home
+                </NavigationMenuLink>
+              </Link>
+            </NavigationMenuItem>
+            <NavigationMenuItem className="w-20">
+              <Link href="/" legacyBehavior passHref>
+                <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                  Video
+                </NavigationMenuLink>
+              </Link>
+            </NavigationMenuItem>
+            <NavigationMenuItem className="w-20">
+              <NavigationMenuTrigger>Product</NavigationMenuTrigger>
+              <NavigationMenuContent>
+                <ul className="w-[200px] p-4 md:w-[300px] lg:w-[300px] ">
+                  {components.map((component) => (
+                    <ListItem
+                      key={component.title}
+                      title={component.title}
+                      href={component.href}>
+                      {component.description}
+                    </ListItem>
+                  ))}
+                </ul>
+              </NavigationMenuContent>
+            </NavigationMenuItem>
+            <NavigationMenuItem className="w-20">
+              <Link href="/" legacyBehavior passHref>
+                <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                  About
+                </NavigationMenuLink>
+              </Link>
+            </NavigationMenuItem>
+          </NavigationMenuList>
+        </NavigationMenu>
+      </div>
     </nav>
-  )
+  );
 }
+
+const ListItem = React.forwardRef<
+  React.ElementRef<"a">,
+  React.ComponentPropsWithoutRef<"a">
+>(({ className, title, children, ...props }, ref) => {
+  return (
+    <li>
+      <NavigationMenuLink asChild>
+        <a
+          ref={ref}
+          className={cn(
+            "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground",
+            className
+          )}
+          {...props}>
+          <div className="text-sm font-medium leading-none">{title}</div>
+          <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
+            {children}
+          </p>
+        </a>
+      </NavigationMenuLink>
+    </li>
+  );
+});
+ListItem.displayName = "ListItem";

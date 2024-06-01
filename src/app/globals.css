@@ -81,9 +81,10 @@ html, body {
   }
 }
 
-li:hover {
+/* li:hover {
   font-weight: 800;
-}
+  cursor: pointer;
+} */
 
 #Tentang-Kami {
   background-image: url("/public/img/background.png");
@@ -111,4 +112,28 @@ li:hover {
   text-shadow: -4px 2px 0px #F6EB3A;
   font-weight: 700;
   -webkit-text-stroke-width: 2px;
+}
+
+
+/* Sasfy */
+
+.comp-1 {
+  /* Group 1000004821 */
+
+  position: absolute;
+  width: 327.33px;
+  height: 221px;
+  left: 88px;
+  top: 429px;
+}
+
+.comp-2 {
+  /* Group 1000004822 */
+
+  position: absolute;
+  width: 257.47px;
+  height: 284.23px;
+  left: 1114px;
+  top: 396px;
+
 }
