@@ -213,7 +213,7 @@ export default function SasfyPage() {
                 sit! Fugiat ab incidunt quaerat earum.
               </p>
             </div>
-            <div className="shadow-lg p-4 bg-white">
+            {/* <div className="shadow-lg p-4 bg-white">
               <h1 className="font-bold text-center text-[24px] mb-4">
                 Praniti
               </h1>
@@ -233,7 +233,7 @@ export default function SasfyPage() {
                 neque officia accusamus dolor magnam necessitatibus illum labore
                 sit! Fugiat ab incidunt quaerat earum.
               </p>
-            </div>
+            </div> */}
             <div className="shadow-lg p-4 bg-white">
               <h1 className="font-bold text-center text-[24px] mb-4">
                 Sasfy Dev
