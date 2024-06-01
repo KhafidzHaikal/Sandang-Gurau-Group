@@ -8,6 +8,11 @@ import Footer from "@/components/footer";
 import Image from "next/image";
 import { LuCheckSquare } from "react-icons/lu";
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Sandang Group | Sasfy",
+};
 
 const PoppinsFont = Poppins({
   subsets: ["latin"],

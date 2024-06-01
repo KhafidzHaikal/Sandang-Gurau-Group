@@ -49,7 +49,7 @@ const components: { title: string; href: string; description: string }[] = [
   },
   {
     title: "Sandang Gurau (Fasion)",
-    href: "/",
+    href: "/sandang-gurau",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
   },
   {
@@ -135,7 +135,7 @@ export default function Navbar() {
                         <Link href={""}>Minyma</Link>
                       </DropdownMenuItem>
                       <DropdownMenuItem>
-                        <Link href={""}>Sandang Gurau (Fasion)</Link>
+                        <Link href={"/sandang-gurau"}>Sandang Gurau (Fasion)</Link>
                       </DropdownMenuItem>
                       <DropdownMenuItem>
                         <Link href={""}>Prboi</Link>
