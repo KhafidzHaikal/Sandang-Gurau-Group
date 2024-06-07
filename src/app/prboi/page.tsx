@@ -12,7 +12,7 @@ import Footer from "@/components/footer";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Sandang Group | Prboi",
+  title: "Prboi",
 };
 
 const Josefin = Josefin_Sans({ subsets: ["latin"] });

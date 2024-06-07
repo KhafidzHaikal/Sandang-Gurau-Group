@@ -13,8 +13,8 @@ const PoppinsFont = Poppins({
 export default function Footer() {
   return (
     <footer className="container mt-[5rem]">
-      <div className="lg:flex gap-7">
-        <div className="lg:w-1/2">
+      <div className="md:flex gap-7">
+        <div className="md:w-1/2">
           <div className="inline-flex items-center -mt-14 -mb-14 -ml-4">
             <Image
               src="/img/logo.png"
@@ -37,7 +37,7 @@ export default function Footer() {
             <FaTwitter />
           </div>
         </div>
-        <div className="grid md:grid-cols-2 lg:xl:grid-cols-3 gap-3 mb-7 ">
+        <div className="grid md:grid-cols-3 gap-3 mb-7 mt-10 md:mt-0 lg:ml-[10rem]">
           <div className={`${PoppinsFont.className} lg:-mt-10 text-[#0C542B]`}>
             <strong className="text-sm">Service</strong>
             <ul>

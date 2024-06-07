@@ -18,7 +18,7 @@ export default function RootLayout({
     <html lang="en">
       <link rel="icon" href="/favicon.ico" sizes="any" />
       <body
-        className={`${inter.className}flex flex-col min-h-screen scroll-smooth`}>
+        className={`${inter.className} flex flex-col min-h-screen scroll-smooth`}>
         <NextTopLoader
           color="#968AEC"
           initialPosition={0.08}

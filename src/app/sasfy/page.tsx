@@ -11,7 +11,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Sandang Group | Sasfy",
+  title: "Sasfy",
 };
 
 const PoppinsFont = Poppins({

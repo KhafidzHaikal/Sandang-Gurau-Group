@@ -80,7 +80,8 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="mx-auto py-2 fixed top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+    // <nav className="mx-auto py-2 fixed top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+    <nav className="mx-auto py-2 absolute top-0 z-50 w-full">
       <div className="flex justify-between items-center container">
         <Image
           src={"/img/logo.png"}
@@ -135,7 +136,9 @@ export default function Navbar() {
                         <Link href={"/minyma"}>Minyma</Link>
                       </DropdownMenuItem>
                       <DropdownMenuItem>
-                        <Link href={"/sandang-gurau"}>Sandang Gurau (Fasion)</Link>
+                        <Link href={"/sandang-gurau"}>
+                          Sandang Gurau (Fasion)
+                        </Link>
                       </DropdownMenuItem>
                       <DropdownMenuItem>
                         <Link href={"/prboi"}>Prboi</Link>
@@ -184,9 +187,8 @@ export default function Navbar() {
                     <ListItem
                       key={component.title}
                       title={component.title}
-                      href={component.href}>
-                      {component.description}
-                    </ListItem>
+                      href={component.href}
+                      description={component.description}></ListItem>
                   ))}
                 </ul>
               </NavigationMenuContent>
@@ -205,27 +207,22 @@ export default function Navbar() {
   );
 }
 
-const ListItem = React.forwardRef<
-  React.ElementRef<"a">,
-  React.ComponentPropsWithoutRef<"a">
->(({ className, title, children, ...props }, ref) => {
+const ListItem = ({ title, href, description }: any) => {
   return (
     <li>
       <NavigationMenuLink asChild>
-        <a
-          ref={ref}
+        <Link
+          href={href}
           className={cn(
-            "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground",
-            className
-          )}
-          {...props}>
-          <div className="text-sm font-medium leading-none">{title}</div>
-          <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
-            {children}
+            "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+          )}>
+          <p className="text-sm font-bold leading-none">{title}</p>
+          <p className="line-clamp-2 font-normal text-sm leading-snug text-muted-foreground">
+            {description}
           </p>
-        </a>
+        </Link>
       </NavigationMenuLink>
     </li>
   );
-});
+};
 ListItem.displayName = "ListItem";

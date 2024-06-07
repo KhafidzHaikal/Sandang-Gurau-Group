@@ -25,7 +25,7 @@ export default function Home() {
   return (
     <main className="">
       <Navbar />
-      <section className="h-screen flex items-center justify-center container">
+      <section className="h-screen flex items-center justify-center container mt-8 sm:mt-0">
         <div className="grid md:grid-cols-3 gap-3">
           <Image
             src={"https://i.ibb.co.com/9T6xrtn/img2.jpg"}
