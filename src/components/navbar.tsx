@@ -43,11 +43,6 @@ const components: { title: string; href: string; description: string }[] = [
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
   },
   {
-    title: "Minyma",
-    href: "/minyma",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-  },
-  {
     title: "Sandang Gurau (Fasion)",
     href: "/sandang-gurau",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
@@ -131,9 +126,6 @@ export default function Navbar() {
                       <DropdownMenuSeparator />
                       <DropdownMenuItem>
                         <Link href={"/tete"}>Tete</Link>
-                      </DropdownMenuItem>
-                      <DropdownMenuItem>
-                        <Link href={"/minyma"}>Minyma</Link>
                       </DropdownMenuItem>
                       <DropdownMenuItem>
                         <Link href={"/sandang-gurau"}>
