@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   title: "Plain Habit",
 };
 
-// const Local = localFont({ src: "./digital-geometric-bold.ttf" });
+const Local = localFont({ src: "./digital-geometric-font.otf" });
 const Josefin = Josefin_Sans({ subsets: ["latin"] });
 const LailaFont = Laila({
   subsets: ["latin"],
@@ -35,7 +35,7 @@ export default function PlainHabit() {
     <main className="">
       <Navbar />
       <section
-        className={`${LailaFont.className} h-screen flex items-center container`}>
+        className={`${Local.className} h-screen flex items-center container`}>
         <div className="absolute left-12 rounded-full w-36 h-36 bg-white border-[#0069B2] z-10 border-[2rem] opacity-10"></div>
         <div className="absolute left-0 rounded-full w-60 h-60 bg-white border-[#0069B2] border-[2rem] opacity-10"></div>
         <div className="lg:w-1/2 text-[#0069B2]">
