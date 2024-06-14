@@ -12,9 +12,9 @@ export default function ProductList() {
   return (
     <Tabs defaultValue="all">
       <TabsList className="bg-transparent">
-        <TabsTrigger value="all" className="text-md bg-[#ECECEC] text-black data-[state=active]:bg-[#0069B2] data-[state=active]:text-white">All Product</TabsTrigger>
-        <TabsTrigger value="man" className="text-md bg-[#ECECEC] mx-2 text-black data-[state=active]:bg-[#0069B2] data-[state=active]:text-white">For Man</TabsTrigger>
-        <TabsTrigger value="woman" className="text-md bg-[#ECECEC] text-black data-[state=active]:bg-[#0069B2] data-[state=active]:text-white">For Woman</TabsTrigger>
+        <TabsTrigger value="all" className="bg-[#ECECEC] text-black data-[state=active]:bg-[#0069B2] data-[state=active]:text-white">All Product</TabsTrigger>
+        <TabsTrigger value="man" className="bg-[#ECECEC] mx-2 text-black data-[state=active]:bg-[#0069B2] data-[state=active]:text-white">For Man</TabsTrigger>
+        <TabsTrigger value="woman" className="bg-[#ECECEC] text-black data-[state=active]:bg-[#0069B2] data-[state=active]:text-white">For Woman</TabsTrigger>
       </TabsList>
       <TabsContent value="all">
         <Carousel>
