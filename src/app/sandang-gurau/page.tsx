@@ -141,7 +141,7 @@ export default function Home() {
               cumque beatae quasi nostrum deserunt
             </p>
           </div>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-3">
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-3">
             <div className="">
               <Image
                 src={"https://i.ibb.co.com/9T6xrtn/img2.jpg"}
@@ -205,7 +205,7 @@ export default function Home() {
           </div>
           <Carousel className="mt-7">
             <CarouselContent>
-              <CarouselItem className="md:basis-1/3 lg:basis-1/5">
+              <CarouselItem className="basis-1/2 lg:basis-1/5">
                 <div className="inline-block overflow-hidden rounded-xl">
                   <Image
                     src={"https://i.ibb.co.com/WfStm7L/baju1.jpg"}
@@ -213,7 +213,7 @@ export default function Home() {
                     height={450}
                     sizes="100vh"
                     alt=""
-                    className="rounded-xl border-2 border-[#F5252D] mx-auto hover:scale-110 duration-500 transition-transform object-none h-96"
+                    className="rounded-xl border-2 border-[#F5252D] mx-auto hover:scale-110 duration-500 transition-transform h-48 lg:object-none lg:h-96"
                   />
                 </div>
                 <div
@@ -221,7 +221,7 @@ export default function Home() {
                   <h2>Kaos U2 x Chinese</h2>
                 </div>
               </CarouselItem>
-              <CarouselItem className="md:basis-1/3 lg:basis-1/5">
+              <CarouselItem className="basis-1/2 lg:basis-1/5">
                 <div className="inline-block overflow-hidden rounded-xl">
                   <Image
                     src={"https://i.ibb.co.com/WfStm7L/baju1.jpg"}
@@ -229,7 +229,7 @@ export default function Home() {
                     height={450}
                     sizes="100vh"
                     alt=""
-                    className="rounded-xl border-2 border-[#F5252D] mx-auto hover:scale-110 duration-500 transition-transform object-none h-96"
+                    className="rounded-xl border-2 border-[#F5252D] mx-auto hover:scale-110 duration-500 transition-transform h-48 lg:object-none lg:h-96"
                   />
                 </div>
                 <div
@@ -237,7 +237,7 @@ export default function Home() {
                   <h2>Kaos U2 x Chinese</h2>
                 </div>
               </CarouselItem>
-              <CarouselItem className="md:basis-1/3 lg:basis-1/5">
+              <CarouselItem className="basis-1/2 lg:basis-1/5">
                 <div className="inline-block overflow-hidden rounded-xl">
                   <Image
                     src={"https://i.ibb.co.com/WfStm7L/baju1.jpg"}
@@ -245,7 +245,7 @@ export default function Home() {
                     height={450}
                     sizes="100vh"
                     alt=""
-                    className="rounded-xl border-2 border-[#F5252D] mx-auto hover:scale-110 duration-500 transition-transform object-none h-96"
+                    className="rounded-xl border-2 border-[#F5252D] mx-auto hover:scale-110 duration-500 transition-transform h-48 lg:object-none lg:h-96"
                   />
                 </div>
                 <div
@@ -253,7 +253,7 @@ export default function Home() {
                   <h2>Kaos U2 x Chinese</h2>
                 </div>
               </CarouselItem>
-              <CarouselItem className="md:basis-1/3 lg:basis-1/5">
+              <CarouselItem className="basis-1/2 lg:basis-1/5">
                 <div className="inline-block overflow-hidden rounded-xl">
                   <Image
                     src={"https://i.ibb.co.com/WfStm7L/baju1.jpg"}
@@ -261,7 +261,7 @@ export default function Home() {
                     height={450}
                     sizes="100vh"
                     alt=""
-                    className="rounded-xl border-2 border-[#F5252D] mx-auto hover:scale-110 duration-500 transition-transform object-none h-96"
+                    className="rounded-xl border-2 border-[#F5252D] mx-auto hover:scale-110 duration-500 transition-transform h-48 lg:object-none lg:h-96"
                   />
                 </div>
                 <div
@@ -269,7 +269,7 @@ export default function Home() {
                   <h2>Kaos U2 x Chinese</h2>
                 </div>
               </CarouselItem>
-              <CarouselItem className="md:basis-1/3 lg:basis-1/5">
+              <CarouselItem className="basis-1/2 lg:basis-1/5">
                 <div className="inline-block overflow-hidden rounded-xl">
                   <Image
                     src={"https://i.ibb.co.com/WfStm7L/baju1.jpg"}
@@ -277,7 +277,7 @@ export default function Home() {
                     height={450}
                     sizes="100vh"
                     alt=""
-                    className="rounded-xl border-2 border-[#F5252D] mx-auto hover:scale-110 duration-500 transition-transform object-none h-96"
+                    className="rounded-xl border-2 border-[#F5252D] mx-auto hover:scale-110 duration-500 transition-transform h-48 lg:object-none lg:h-96"
                   />
                 </div>
                 <div
