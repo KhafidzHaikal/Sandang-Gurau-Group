@@ -31,7 +31,7 @@ export default function Prboi() {
         <Navbar />
       </div>
       <section className="h-screen bg-[#09080A] flex items-center">
-        <div className="lg:w-1/2 text-left ml-10 lg:ml-24">
+        <div className="lg:w-1/2 text-left ml-8 lg:ml-24">
           <h1
             className={`${BayonFont.className} text-white text-[40px] lg:text-[64px]`}>
             Look dashing <span className="text-[#850F8D]"> wherever</span> and{" "}
@@ -82,7 +82,6 @@ export default function Prboi() {
             </div>
             <div className="text-left text-white mt-3">
               <h2>UNFAZED Black Shirt</h2>
-              <p className="mt-3">Price: Rp. 123.456</p>
             </div>
           </div>
           <div className="img-2">
@@ -98,7 +97,6 @@ export default function Prboi() {
             </div>
             <div className="text-left text-white mt-3">
               <h2>UNFAZED Black Shirt</h2>
-              <p className="mt-3">Price: Rp. 123.456</p>
             </div>
           </div>
           <div className="img-3">
@@ -114,7 +112,6 @@ export default function Prboi() {
             </div>
             <div className="text-left text-white mt-3">
               <h2>UNFAZED Black Shirt</h2>
-              <p className="mt-3">Price: Rp. 123.456</p>
             </div>
           </div>
           <div className="img-4">
@@ -130,7 +127,6 @@ export default function Prboi() {
             </div>
             <div className="text-left text-white mt-3">
               <h2>UNFAZED Black Shirt</h2>
-              <p className="mt-3">Price: Rp. 123.456</p>
             </div>
           </div>
           <div className="img-1">
@@ -146,7 +142,6 @@ export default function Prboi() {
             </div>
             <div className="text-left text-white mt-3">
               <h2>UNFAZED Black Shirt</h2>
-              <p className="mt-3">Price: Rp. 123.456</p>
             </div>
           </div>
           <div className="img-2">
@@ -162,7 +157,6 @@ export default function Prboi() {
             </div>
             <div className="text-left text-white mt-3">
               <h2>UNFAZED Black Shirt</h2>
-              <p className="mt-3">Price: Rp. 123.456</p>
             </div>
           </div>
           <div className="img-3">
@@ -178,7 +172,6 @@ export default function Prboi() {
             </div>
             <div className="text-left text-white mt-3">
               <h2>UNFAZED Black Shirt</h2>
-              <p className="mt-3">Price: Rp. 123.456</p>
             </div>
           </div>
           <div className="img-4">
@@ -194,7 +187,6 @@ export default function Prboi() {
             </div>
             <div className="text-left text-white mt-3">
               <h2>UNFAZED Black Shirt</h2>
-              <p className="mt-3">Price: Rp. 123.456</p>
             </div>
           </div>
         </div>

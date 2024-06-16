@@ -128,21 +128,21 @@ export default function Navbar() {
                       <DropdownMenuLabel>PRODUCT</DropdownMenuLabel>
                       <DropdownMenuSeparator />
                       <DropdownMenuItem>
-                        <Link href={"/tete"}>Tete</Link>
+                        <Link href={"/tete"} className="w-full">Tete</Link>
                       </DropdownMenuItem>
                       <DropdownMenuItem>
-                        <Link href={"/sandang-gurau"}>
+                        <Link href={"/sandang-gurau"} className="w-full">
                           Sandang Gurau (Fasion)
                         </Link>
                       </DropdownMenuItem>
                       <DropdownMenuItem>
-                        <Link href={"/prboi"}>Prboi</Link>
+                        <Link href={"/prboi"} className="w-full">Prboi</Link>
                       </DropdownMenuItem>
                       <DropdownMenuItem>
-                        <Link href={"/plain-habit"}>Plain Habit</Link>
+                        <Link href={"/plain-habit"} className="w-full">Plain Habit</Link>
                       </DropdownMenuItem>
                       <DropdownMenuItem>
-                        <Link href={"/sasfy"}>Sasfy</Link>
+                        <Link href={"/sasfy"} className="w-full">Sasfy</Link>
                       </DropdownMenuItem>
                     </DropdownMenuContent>
                   </DropdownMenu>

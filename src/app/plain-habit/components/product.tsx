@@ -36,7 +36,6 @@ export default function ProductList() {
                   <p className="text-[#858585] text-sm mt-2">
                     Lorem ipsum dolor sit amet conser.{" "}
                   </p>
-                  <p className="font-bold mt-3 mb-4">Rp. 169.000</p>
                   <Link href={""} className="">
                     <button className="py-2 px-6 border-2 rounded-lg shadow-lg bg-white text-[#0069B2] border-[#0069B2] hover:bg-[#0069B2] hover:text-white mb-2 w-full">
                       Beli
@@ -62,7 +61,6 @@ export default function ProductList() {
                   <p className="text-[#858585] text-sm mt-2">
                     Lorem ipsum dolor sit amet conser.{" "}
                   </p>
-                  <p className="font-bold mt-3 mb-4">Rp. 169.000</p>
                   <Link href={""} className="">
                     <button className="py-2 px-6 border-2 rounded-lg shadow-lg bg-white text-[#0069B2] border-[#0069B2] hover:bg-[#0069B2] hover:text-white mb-2 w-full">
                       Beli
@@ -88,7 +86,6 @@ export default function ProductList() {
                   <p className="text-[#858585] text-sm mt-2">
                     Lorem ipsum dolor sit amet conser.{" "}
                   </p>
-                  <p className="font-bold mt-3 mb-4">Rp. 169.000</p>
                   <Link href={""} className="">
                     <button className="py-2 px-6 border-2 rounded-lg shadow-lg bg-white text-[#0069B2] border-[#0069B2] hover:bg-[#0069B2] hover:text-white mb-2 w-full">
                       Beli
@@ -114,7 +111,6 @@ export default function ProductList() {
                   <p className="text-[#858585] text-sm mt-2">
                     Lorem ipsum dolor sit amet conser.{" "}
                   </p>
-                  <p className="font-bold mt-3 mb-4">Rp. 169.000</p>
                   <Link href={""} className="">
                     <button className="py-2 px-6 border-2 rounded-lg shadow-lg bg-white text-[#0069B2] border-[#0069B2] hover:bg-[#0069B2] hover:text-white mb-2 w-full">
                       Beli
@@ -146,7 +142,6 @@ export default function ProductList() {
                   <p className="text-[#858585] text-sm mt-2">
                     Lorem ipsum dolor sit amet conser.{" "}
                   </p>
-                  <p className="font-bold mt-3 mb-4">Rp. 169.000</p>
                   <Link href={""} className="">
                     <button className="py-2 px-6 border-2 rounded-lg shadow-lg bg-white text-[#0069B2] border-[#0069B2] hover:bg-[#0069B2] hover:text-white mb-2 w-full">
                       Beli
@@ -172,7 +167,6 @@ export default function ProductList() {
                   <p className="text-[#858585] text-sm mt-2">
                     Lorem ipsum dolor sit amet conser.{" "}
                   </p>
-                  <p className="font-bold mt-3 mb-4">Rp. 169.000</p>
                   <Link href={""} className="">
                     <button className="py-2 px-6 border-2 rounded-lg shadow-lg bg-white text-[#0069B2] border-[#0069B2] hover:bg-[#0069B2] hover:text-white mb-2 w-full">
                       Beli
@@ -198,7 +192,6 @@ export default function ProductList() {
                   <p className="text-[#858585] text-sm mt-2">
                     Lorem ipsum dolor sit amet conser.{" "}
                   </p>
-                  <p className="font-bold mt-3 mb-4">Rp. 169.000</p>
                   <Link href={""} className="">
                     <button className="py-2 px-6 border-2 rounded-lg shadow-lg bg-white text-[#0069B2] border-[#0069B2] hover:bg-[#0069B2] hover:text-white mb-2 w-full">
                       Beli
@@ -224,7 +217,6 @@ export default function ProductList() {
                   <p className="text-[#858585] text-sm mt-2">
                     Lorem ipsum dolor sit amet conser.{" "}
                   </p>
-                  <p className="font-bold mt-3 mb-4">Rp. 169.000</p>
                   <Link href={""} className="">
                     <button className="py-2 px-6 border-2 rounded-lg shadow-lg bg-white text-[#0069B2] border-[#0069B2] hover:bg-[#0069B2] hover:text-white mb-2 w-full">
                       Beli
@@ -256,7 +248,6 @@ export default function ProductList() {
                   <p className="text-[#858585] text-sm mt-2">
                     Lorem ipsum dolor sit amet conser.{" "}
                   </p>
-                  <p className="font-bold mt-3 mb-4">Rp. 169.000</p>
                   <Link href={""} className="">
                     <button className="py-2 px-6 border-2 rounded-lg shadow-lg bg-white text-[#0069B2] border-[#0069B2] hover:bg-[#0069B2] hover:text-white mb-2 w-full">
                       Beli
@@ -282,7 +273,6 @@ export default function ProductList() {
                   <p className="text-[#858585] text-sm mt-2">
                     Lorem ipsum dolor sit amet conser.{" "}
                   </p>
-                  <p className="font-bold mt-3 mb-4">Rp. 169.000</p>
                   <Link href={""} className="">
                     <button className="py-2 px-6 border-2 rounded-lg shadow-lg bg-white text-[#0069B2] border-[#0069B2] hover:bg-[#0069B2] hover:text-white mb-2 w-full">
                       Beli
@@ -308,7 +298,6 @@ export default function ProductList() {
                   <p className="text-[#858585] text-sm mt-2">
                     Lorem ipsum dolor sit amet conser.{" "}
                   </p>
-                  <p className="font-bold mt-3 mb-4">Rp. 169.000</p>
                   <Link href={""} className="">
                     <button className="py-2 px-6 border-2 rounded-lg shadow-lg bg-white text-[#0069B2] border-[#0069B2] hover:bg-[#0069B2] hover:text-white mb-2 w-full">
                       Beli
@@ -334,7 +323,6 @@ export default function ProductList() {
                   <p className="text-[#858585] text-sm mt-2">
                     Lorem ipsum dolor sit amet conser.{" "}
                   </p>
-                  <p className="font-bold mt-3 mb-4">Rp. 169.000</p>
                   <Link href={""} className="">
                     <button className="py-2 px-6 border-2 rounded-lg shadow-lg bg-white text-[#0069B2] border-[#0069B2] hover:bg-[#0069B2] hover:text-white mb-2 w-full">
                       Beli

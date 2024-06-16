@@ -25,7 +25,7 @@ export default function Home() {
   return (
     <main className="">
       <Navbar />
-      <section className="h-screen flex items-center justify-center container mt-8 sm:mt-0">
+      <section className="h-screen flex items-center justify-center container mt-2 sm:mt-0">
         <div className="grid md:grid-cols-3 gap-3">
           <Image
             src={"https://i.ibb.co.com/9T6xrtn/img2.jpg"}
@@ -219,7 +219,6 @@ export default function Home() {
                 <div
                   className={`${LailaFont.className} text-left text-white mt-3`}>
                   <h2>Kaos U2 x Chinese</h2>
-                  <p className="font-[300] mt-3">Rp. 169.000</p>
                 </div>
               </CarouselItem>
               <CarouselItem className="md:basis-1/3 lg:basis-1/5">
@@ -236,7 +235,6 @@ export default function Home() {
                 <div
                   className={`${LailaFont.className} text-left text-white mt-3`}>
                   <h2>Kaos U2 x Chinese</h2>
-                  <p className="font-[300] mt-3">Rp. 169.000</p>
                 </div>
               </CarouselItem>
               <CarouselItem className="md:basis-1/3 lg:basis-1/5">
@@ -253,7 +251,6 @@ export default function Home() {
                 <div
                   className={`${LailaFont.className} text-left text-white mt-3`}>
                   <h2>Kaos U2 x Chinese</h2>
-                  <p className="font-[300] mt-3">Rp. 169.000</p>
                 </div>
               </CarouselItem>
               <CarouselItem className="md:basis-1/3 lg:basis-1/5">
@@ -270,7 +267,6 @@ export default function Home() {
                 <div
                   className={`${LailaFont.className} text-left text-white mt-3`}>
                   <h2>Kaos U2 x Chinese</h2>
-                  <p className="font-[300] mt-3">Rp. 169.000</p>
                 </div>
               </CarouselItem>
               <CarouselItem className="md:basis-1/3 lg:basis-1/5">
@@ -287,7 +283,6 @@ export default function Home() {
                 <div
                   className={`${LailaFont.className} text-left text-white mt-3`}>
                   <h2>Kaos U2 x Chinese</h2>
-                  <p className="font-[300] mt-3">Rp. 169.000</p>
                 </div>
               </CarouselItem>
             </CarouselContent>
