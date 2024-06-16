@@ -33,6 +33,7 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import { usePathname } from "next/navigation";
 
 const Josefin = Josefin_Sans({ subsets: ["latin"] });
 
@@ -73,6 +74,7 @@ export default function Navbar() {
   const handleDrawerToggle = () => {
     setIsDrawerOpen(!isDrawerOpen);
   };
+  const path = usePathname();
 
   return (
     // <nav className="mx-auto py-2 fixed top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
@@ -91,6 +93,7 @@ export default function Navbar() {
             <Sheet key={side}>
               <SheetTrigger asChild>
                 <Button className="bg-transparent hover:bg-transparent">
+                  {path === "/prboi" && <IoMenu className="text-2xl -mr-7 z-10" />}
                   <IoMenu className="text-2xl text-black" />
                 </Button>
               </SheetTrigger>

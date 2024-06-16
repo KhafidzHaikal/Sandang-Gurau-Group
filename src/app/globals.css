@@ -137,3 +137,10 @@ html, body {
   top: 396px;
 
 }
+
+.about-prboi {
+  box-shadow:
+    -20px -20px 0 1px hsl(0, 0%, 0%),
+    -20px -20px 0 5px hsl(294, 75%, 33%);
+  border-radius: 3px;
+}

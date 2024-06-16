@@ -76,7 +76,7 @@ export default function PlainHabit() {
         </div>
       </section>
       <section
-        className={`${Josefin.className} h-screen sm:flex gap-10 items-center justify-center`}
+        className={`${Josefin.className} sm:h-screen sm:flex gap-10 items-center justify-center py-10`}
         style={{
           backgroundImage: "url(/img/bg-visi-plain.png)",
           width: "100%",
@@ -84,15 +84,15 @@ export default function PlainHabit() {
         }}>
         <Image
           src={"/img/baju-visi-plain.png"}
-          width={300}
-          height={400}
+          width={350}
+          height={450}
           sizes="100vh"
           alt=""
           className="mx-auto"
         />
-        <div className="lg:w-1/2 text-white container">
-          <h1 className="text-[54px] font-bold">About Plain habit</h1>
-          <p className="font-normal leading-8 mb-10">
+        <div className="lg:w-1/2 text-white container mt-10 lg:mt-0">
+          <h1 className="text-[40px] lg:text-[54px] font-bold">About Plain habit</h1>
+          <p className="font-normal lg:leading-8 mb-10">
             Plain Habit is an interpretation of the combination of simplicity
             and habit. Plain is a reflection of simplicity yet elegance, while
             Habit shows consistency in maintaining simplicity itself.
