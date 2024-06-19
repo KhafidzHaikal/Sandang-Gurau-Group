@@ -144,3 +144,28 @@ html, body {
     -20px -20px 0 5px hsl(294, 75%, 33%);
   border-radius: 3px;
 }
+
+.line {
+  /* Rectangle 6080 */
+
+  width: 43px;
+  height: 6px;
+
+  background: #292929;
+  border-radius: 9px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+
+}
+
+.circle-tete {
+  width: 20px;
+  height: 20px;
+  background-color: #E2C799;
+  border: 6px solid #292929;
+  border-radius: 100%;
+  margin-left: 8px;
+}

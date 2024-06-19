@@ -81,9 +81,9 @@ export default function Navbar() {
     <nav className="mx-auto py-2 absolute top-0 z-50 w-full">
       <div className="flex justify-between items-center container">
         <Image
-          src={"/img/logo.png"}
-          width={120}
-          height={120}
+          src={"/img/sandang-group.png"}
+          width={80}
+          height={80}
           sizes="100vh"
           alt="Sandang Gurau"
           className="md:ml-14"
@@ -101,9 +101,9 @@ export default function Navbar() {
                 <SheetHeader>
                   <SheetTitle>
                     <Image
-                      src={"/img/logo.png"}
-                      width={120}
-                      height={120}
+                      src={"/img/sandang-group.png"}
+                      width={100}
+                      height={100}
                       sizes="100vh"
                       alt="Sandang Gurau"
                     />

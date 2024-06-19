@@ -17,7 +17,7 @@ export default function Footer() {
         <div className="md:w-1/2">
           <div className="inline-flex items-center -mt-14 -mb-14 -ml-4">
             <Image
-              src="/img/logo.png"
+              src="/img/sandang-group.png"
               width={150}
               height={150}
               sizes="100vh"
