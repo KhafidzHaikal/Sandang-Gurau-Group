@@ -114,12 +114,6 @@ export default function Navbar() {
                     prefetch={false}>
                     Home
                   </Link>
-                  <Link
-                    href="#"
-                    className="flex w-full items-center py-2 text-lg font-semibold"
-                    prefetch={false}>
-                    Video
-                  </Link>
                   <DropdownMenu>
                     <DropdownMenuTrigger className="flex w-full items-center py-2 text-lg font-semibold">
                       Product
@@ -146,12 +140,6 @@ export default function Navbar() {
                       </DropdownMenuItem>
                     </DropdownMenuContent>
                   </DropdownMenu>
-                  <Link
-                    href="/about"
-                    className="flex w-full items-center py-2 text-lg font-semibold"
-                    prefetch={false}>
-                    About
-                  </Link>
                 </SheetHeader>
               </SheetContent>
             </Sheet>
@@ -168,13 +156,6 @@ export default function Navbar() {
               </Link>
             </NavigationMenuItem>
             <NavigationMenuItem className="w-20">
-              <Link href="/" legacyBehavior passHref>
-                <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                  Video
-                </NavigationMenuLink>
-              </Link>
-            </NavigationMenuItem>
-            <NavigationMenuItem className="w-20">
               <NavigationMenuTrigger>Product</NavigationMenuTrigger>
               <NavigationMenuContent>
                 <ul className="w-[200px] p-4 md:w-[300px] lg:w-[300px] ">
@@ -187,13 +168,6 @@ export default function Navbar() {
                   ))}
                 </ul>
               </NavigationMenuContent>
-            </NavigationMenuItem>
-            <NavigationMenuItem className="w-20">
-              <Link href="/about" legacyBehavior passHref>
-                <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                  About
-                </NavigationMenuLink>
-              </Link>
             </NavigationMenuItem>
           </NavigationMenuList>
         </NavigationMenu>

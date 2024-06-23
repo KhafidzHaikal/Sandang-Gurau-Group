@@ -13,23 +13,22 @@ const PoppinsFont = Poppins({
 export default function Footer() {
   return (
     <footer className="container mt-[5rem]">
-      <div className="md:flex gap-7">
-        <div className="md:w-1/2">
+      <div className="sm:flex gap-7">
+        <div className="sm:w-1/2">
           <div className="inline-flex items-center -mt-14 -mb-14 -ml-4">
             <Image
               src="/img/sandang-group.png"
-              width={150}
-              height={150}
+              width={110}
+              height={110}
               sizes="100vh"
               alt="Sandang Gurau"
               className=""
             />
           </div>
           <p className="text-[12px] font-medium mb-4">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni quae
-            totam quo incidunt deserunt veritatis qui minima nisi impedit, nihil
-            tenetur animi officiis rem illo voluptates repellat saepe corporis.
-            Animi.
+            Thank you for choosing Sandang Group. Your purchase supports our
+            vision for sustainable and stylish fashion. We hope you love our
+            services.
           </p>
           <div className="flex gap-5">
             <FaInstagram />
@@ -37,35 +36,34 @@ export default function Footer() {
             <FaTwitter />
           </div>
         </div>
-        <div className="grid md:grid-cols-3 gap-3 mb-7 mt-10 md:mt-0 lg:ml-[10rem]">
-          <div className={`${PoppinsFont.className} lg:-mt-10 text-[#0C542B]`}>
-            <strong className="text-sm">Service</strong>
+        <div className="grid sm:grid-cols-3 gap-4 sm:gap-14 xl:gap-24 mb-7 mt-10 md:mt-0 sm:ml-[10rem] lg:ml-[14rem]">
+          <div className={`${PoppinsFont.className} lg:-mt-10`}>
+            <strong className="text-sm text-[#FC1111]">Service</strong>
             <ul>
               <li className="my-3 text-sm">Contact Us</li>
               <li className="mb-3 text-sm">Blog</li>
-              <li className="mb-3 text-sm">Help Center</li>
+              <li className="mb-3 text-sm">About Us</li>
             </ul>
           </div>
-          <div className={`${PoppinsFont.className} lg:-mt-10 text-[#0C542B]`}>
-            <strong className="text-sm">Resource</strong>
+          <div className={`${PoppinsFont.className} lg:-mt-10`}>
+            <strong className="text-sm text-[#FC1111]">Resource</strong>
             <ul>
               <li className="my-3 text-sm">Pricing</li>
-              <li className="mb-3 text-sm">FAQs</li>
+              <li className="mb-3 text-sm">Catalog</li>
             </ul>
           </div>
-          <div className={`${PoppinsFont.className} lg:-mt-10 text-[#0C542B]`}>
-            <strong className="text-sm">Support</strong>
+          <div className={`${PoppinsFont.className} lg:-mt-10`}>
+            <strong className="text-sm text-[#FC1111]">Support</strong>
             <ul>
               <li className="my-3 text-sm">Sitemap</li>
-              <li className="mb-3 text-sm">Cancelation Policy</li>
               <li className="mb-3 text-sm">Pricing</li>
             </ul>
           </div>
         </div>
       </div>
-      <hr className="border-2 rounded-xl" />
+      <hr className="border-2 rounded-xl mt-4" />
       <div
-        className={`${PoppinsFont.className} flex justify-between mb-4 text-[#828282] mt-2 text-sm`}>
+        className={`${PoppinsFont.className} flex justify-between mb-4 text-[#FC1111] mt-2 text-sm`}>
         <p>@copyright 2024.</p>
         <p>Teams & Condition</p>
       </div>
