@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Navbar from "@/components/navbar";
 import Image from "next/image";
 import { Laila } from "next/font/google";
@@ -47,8 +48,8 @@ export default function Home() {
             <div className="text-center lg:h-[17.8rem]">
               <Image
                 src={"/img/logo.png"}
-                width={250}
-                height={250}
+                width={200}
+                height={200}
                 sizes="100vh"
                 alt=""
                 className="mx-auto"
@@ -57,7 +58,8 @@ export default function Home() {
                 Sandang Gurau
               </h1>
               <p className={`${Josefin.className} mt-2`}>
-                Lorem ipsum dolor, sit amet consectetur adipisicing
+                Movie and Music Parody Collaboration Fashion that Tickles
+                Nostalgia
               </p>
               <div className="mt-4 mb-8 md:mb-0">
                 <Link
@@ -104,14 +106,16 @@ export default function Home() {
             className="mx-auto bg-white rounded-[100%]"
           />
           <div className={`${LailaFont.className}`}>
-            <h1 id="text-sandang" className="text-[52px] text-center md:text-left lg:text-[71px] font-bold">
+            <h1
+              id="text-sandang"
+              className="text-[52px] text-center md:text-left lg:text-[71px] font-bold">
               Sandang Gurau
             </h1>
             <p className="text-white font-[300] my-4">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Distinctio, officiis, iure rem veniam blanditiis, corporis aliquam
-              cumque beatae quasi nostrum deserunt. Quo ut nam quam animi
-              perferendis error alias voluptates!
+              Sandang Gurau is a collaboration of artists and designers creative
+              artists and designers who want to share their love for movies and
+              music through fashion. We developed unique and funny designs that
+              take inspiration from favorite movies and music.
             </p>
             <div className="mt-10">
               <Link
@@ -136,9 +140,9 @@ export default function Home() {
               Tiktok Video
             </h1>
             <p className="font-[300] my-4 md:w-1/2 mx-auto">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Distinctio, officiis, iure rem veniam blanditiis, corporis aliquam
-              cumque beatae quasi nostrum deserunt
+              Let's have some nostalgic fun with Sandang Gurau! We have funny
+              and unique movie and music parody clothes! Check out the video and
+              find your favorite outfit!
             </p>
           </div>
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-3">
@@ -198,9 +202,10 @@ export default function Home() {
               Our Product
             </h1>
             <p className="font-[300] my-4 md:w-1/2 mx-auto text-white">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Distinctio, officiis, iure rem veniam blanditiis, corporis aliquam
-              cumque beatae quasi nostrum deserunt
+              Sandang Gurau presents a collection of movie and music parody
+              clothes that are unique, funny and nostalgic. Our clothes are made
+              with high quality materials and creative designs inspired by your
+              favorite movies and your favorite movies and music.
             </p>
           </div>
           <Carousel className="mt-7">

@@ -41,27 +41,30 @@ const components: { title: string; href: string; description: string }[] = [
   {
     title: "Tete",
     href: "/tete",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    description: "Realize your style with screen printing or shirt printing",
   },
   {
     title: "Sandang Gurau (Fasion)",
     href: "/sandang-gurau",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    description:
+      "Movie and Music Parody Collaboration Fashion that Tickles Nostalgia",
   },
   {
     title: "Prboi",
     href: "/prboi",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    description:
+      "PRBoi is a gym apparel brand that understands the importance of comfort, style, and performance",
   },
   {
     title: "Plain Habit",
     href: "/plain-habit",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    description: "Discover the Art of Simplicity and Elegance",
   },
   {
     title: "Sasfy",
     href: "/sasfy",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    description:
+      "Sasfy a leading software development company, offers software solutions",
   },
 ];
 
@@ -93,7 +96,9 @@ export default function Navbar() {
             <Sheet key={side}>
               <SheetTrigger asChild>
                 <Button className="bg-transparent hover:bg-transparent">
-                  {path === "/prboi" && <IoMenu className="text-2xl -mr-7 z-10" />}
+                  {path === "/prboi" && (
+                    <IoMenu className="text-2xl -mr-7 z-10" />
+                  )}
                   <IoMenu className="text-2xl text-black" />
                 </Button>
               </SheetTrigger>
@@ -122,7 +127,9 @@ export default function Navbar() {
                       <DropdownMenuLabel>PRODUCT</DropdownMenuLabel>
                       <DropdownMenuSeparator />
                       <DropdownMenuItem>
-                        <Link href={"/tete"} className="w-full">Tete</Link>
+                        <Link href={"/tete"} className="w-full">
+                          Tete
+                        </Link>
                       </DropdownMenuItem>
                       <DropdownMenuItem>
                         <Link href={"/sandang-gurau"} className="w-full">
@@ -130,13 +137,19 @@ export default function Navbar() {
                         </Link>
                       </DropdownMenuItem>
                       <DropdownMenuItem>
-                        <Link href={"/prboi"} className="w-full">Prboi</Link>
+                        <Link href={"/prboi"} className="w-full">
+                          Prboi
+                        </Link>
                       </DropdownMenuItem>
                       <DropdownMenuItem>
-                        <Link href={"/plain-habit"} className="w-full">Plain Habit</Link>
+                        <Link href={"/plain-habit"} className="w-full">
+                          Plain Habit
+                        </Link>
                       </DropdownMenuItem>
                       <DropdownMenuItem>
-                        <Link href={"/sasfy"} className="w-full">Sasfy</Link>
+                        <Link href={"/sasfy"} className="w-full">
+                          Sasfy
+                        </Link>
                       </DropdownMenuItem>
                     </DropdownMenuContent>
                   </DropdownMenu>

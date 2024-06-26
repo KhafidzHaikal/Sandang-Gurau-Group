@@ -55,10 +55,9 @@ export default function SasfyPage() {
             Tingkatkan Bisnis Anda dengan Memiliki Website Bisnis
           </h1>
           <p className="md:w-1/2 text-sm md:text-base mx-auto mt-4 text-center">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut,
-            placeat. Numquam magni ipsam obcaecati fuga a asperiores, possimus
-            dolorum aperiam? Corrupti id amet dicta fugit obcaecati sed unde
-            vitae expedita.
+            Transformasi digital telah menjadi kunci bagi kesuksesan bisnis di
+            era modern. Sasfy, sebagai perusahaan pembuatan software terdepan,
+            hadir untuk membantu Anda mencapai tujuan tersebut.
           </p>
           <div className="sm:flex text-center gap-4 justify-center mt-5">
             <Link href={"https://wa.me/+6281911506190"}>
@@ -83,10 +82,9 @@ export default function SasfyPage() {
             Layanan Kami
           </h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-            nulla blanditiis eum fuga! Quasi unde nam nemo, voluptates sit
-            accusantium sequi voluptatem vitae exercitationem consequuntur
-            repudiandae ipsam recusandae culpa aut!
+            Sasfy perusahaan pembuatan software terkemuka, menawarkan solusi
+            perangkat lunak yang dirancang untuk membantu Anda mencapai tujuan
+            Anda.
           </p>
         </div>
         <div className="grid md:grid-cols-3 gap-5">
@@ -191,10 +189,9 @@ export default function SasfyPage() {
             PORTOPOLIO
           </h1>
           <p className="text-center my-4">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
-            minima perferendis reprehenderit praesentium voluptatibus rerum,
-            quaerat doloremque, ex vitae ratione atque molestiae repellat natus
-            deserunt eos? Soluta perspiciatis illo tenetur.
+            Sasfy perusahaan pembuatan software terdepan, menawarkan berbagai
+            macam solusi perangkat lunak yang dirancang untuk memenuhi kebutuhan
+            bisnis dari berbagai skala.
           </p>
           <div className="grid lg:grid-cols-2 gap-5 mt-4">
             <div className="shadow-lg p-4 bg-white">
@@ -212,33 +209,11 @@ export default function SasfyPage() {
                 />
               </div>
               <p className="mt-4 text-sm">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Doloremque enim, debitis aperiam odio accusantium, at doloribus
-                neque officia accusamus dolor magnam necessitatibus illum labore
-                sit! Fugiat ab incidunt quaerat earum.
+                Aplikasi Registration Form Pertamina adalah platform digital
+                untuk mendaftar ke acara atau program yang diselenggarakan oleh
+                Pertamina.
               </p>
             </div>
-            {/* <div className="shadow-lg p-4 bg-white">
-              <h1 className="font-bold text-center text-[24px] mb-4">
-                Praniti
-              </h1>
-              <div className="overflow-hidden mx-auto">
-                <Image
-                  src={"/img/porto-sasfy-2.png"}
-                  width={500}
-                  height={500}
-                  sizes="100vh"
-                  alt="Praniti"
-                  className="mx-auto hover:scale-110 duration-500 transition-transform lg:h-72"
-                />
-              </div>
-              <p className="mt-4 text-sm">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Doloremque enim, debitis aperiam odio accusantium, at doloribus
-                neque officia accusamus dolor magnam necessitatibus illum labore
-                sit! Fugiat ab incidunt quaerat earum.
-              </p>
-            </div> */}
             <div className="shadow-lg p-4 bg-white">
               <h1 className="font-bold text-center text-[24px] mb-4">
                 Sasfy Dev
@@ -254,10 +229,9 @@ export default function SasfyPage() {
                 />
               </div>
               <p className="mt-4 text-sm">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Doloremque enim, debitis aperiam odio accusantium, at doloribus
-                neque officia accusamus dolor magnam necessitatibus illum labore
-                sit! Fugiat ab incidunt quaerat earum.
+                Sasfy perusahaan pembuatan software terkemuka, menawarkan
+                solusi perangkat lunak yang dirancang untuk membantu Anda
+                mencapai tujuan Anda.
               </p>
             </div>
           </div>
@@ -275,10 +249,11 @@ export default function SasfyPage() {
           Tertarik untuk Membuat Website?
         </h1>
         <p className="text-center my-8">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis quia
-          illo fugiat id adipisci quasi ducimus quas, nulla modi, eveniet
-          perferendis? Officiis quos nam reprehenderit recusandae perspiciatis
-          architecto consectetur veritatis.
+          Kami berkomitmen untuk menyediakan solusi perangkat lunak yang
+          berkualitas tinggi dan terjangkau yang dapat membantu Anda mencapai
+          potensi penuh Anda. <br />
+          <br /> Hubungi kami hari ini untuk mengetahui bagaimana kami dapat
+          membantu Anda mencapai kesuksesan.
         </p>
         <Link
           href={"https://wa.me/+6281911506190"}

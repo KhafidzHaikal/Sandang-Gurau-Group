@@ -43,9 +43,10 @@ export default function Tete() {
               Make Your Customize Shirt With Us
             </h1>
             <p className={`${Local.className} text-md mt-4 mb-10 pr-7`}>
-              Lorem ipsum dolor sit amet consectetur. Sit at odio malesuada sed.
-              Morbi maecenas imperdiet vel sollicitudin sed risus dolor in
-              vivamus.
+              Tete is here as a solution to transform your t-shirt into
+              something extraordinary with unique and contemporary custom screen
+              printing. Change your style with custom t-shirt screen printing
+              from Tete! Contact us today and get a great deal.
             </p>
             <Link
               href={""}
@@ -105,10 +106,9 @@ export default function Tete() {
               Our Activities
             </h1>
             <p className="text-white">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Voluptatem provident doloribus, ullam atque aliquid dolor illum
-              quae. Reprehenderit consequuntur officiis recusandae at voluptate.
-              Corrupti voluptatem odio perferendis veritatis eius obcaecati.
+              Tete is the best place to transform your t-shirt into something
+              extraordinary with unique and contemporary screen printing or
+              custom shirt printing.
             </p>
           </div>
           <div className="grid grid-cols-2 lg:grid-cols-4 mt-10 gap-6">
@@ -198,10 +198,8 @@ export default function Tete() {
               How To Order
             </h1>
             <p className="text-[#292929]">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Voluptatem provident doloribus, ullam atque aliquid dolor illum
-              quae. Reprehenderit consequuntur officiis recusandae at voluptate.
-              Corrupti voluptatem odio perferendis veritatis eius obcaecati.
+              Contact Tete today and bring your style to life with unique and
+              quality screen printing or custom shirt printing!
             </p>
           </div>
           <div className="flex justify-center w-full mt-10">
@@ -246,8 +244,8 @@ export default function Tete() {
               <div className={`${Local.className} text-center text-white`}>
                 <h1 className="text-xl">Contact Us</h1>
                 <p className="mt-6">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Voluptatem provident doloribus
+                  You can contact us through our website, Instagram, or
+                  Facebook.
                 </p>
               </div>
             </div>
@@ -258,8 +256,8 @@ export default function Tete() {
               <div className={`${Local.className} text-center text-white`}>
                 <h1 className="text-xl">Meet With Our Team</h1>
                 <p className="mt-6">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Voluptatem provident doloribus
+                  You want to discuss more about your design, you can meet us at
+                  our workshop.
                 </p>
               </div>
             </div>
@@ -270,8 +268,8 @@ export default function Tete() {
               <div className={`${Local.className} text-center text-white`}>
                 <h1 className="text-xl">Deal</h1>
                 <p className="mt-6">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Voluptatem provident doloribus
+                  Determine the design and price, we will create a design mockup
+                  for you.
                 </p>
               </div>
             </div>
@@ -288,10 +286,10 @@ export default function Tete() {
               Our Commitment
             </h1>
             <p className="text-white">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Voluptatem provident doloribus, ullam atque aliquid dolor illum
-              quae. Reprehenderit consequuntur officiis recusandae at voluptate.
-              Corrupti voluptatem odio perferendis veritatis eius obcaecati.
+              Tete is committed to helping you realize your style with unique,
+              quality, and affordable custom t-shirt printing. We understand
+              that style is identity, and we want to give you the freedom to
+              express yourself through custom t-shirts.
             </p>
           </div>
           <div className="mt-8 sm:mt-0">

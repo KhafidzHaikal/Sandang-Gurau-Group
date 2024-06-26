@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Navbar from "@/components/navbar";
 import Image from "next/image";
 import { Bayon, Play } from "next/font/google";
@@ -39,9 +40,10 @@ export default function Prboi() {
           </h1>
           <p
             className={`${PlayFont.className} text-md text-white mt-4 mb-10 pr-7`}>
-            Lorem ipsum dolor sit amet consectetur. Sit at odio malesuada sed.
-            Morbi maecenas imperdiet vel sollicitudin sed risus dolor in
-            vivamus.
+            Are you ready to push your limits, break barriers, and conquer the
+            gym like a true warrior? Then it's time to gear up with PRBoi, the
+            gym apparel brand that's built for the relentless pursuit of
+            greatness. vivamus.
           </p>
           <Link
             href={""}
@@ -212,10 +214,11 @@ export default function Prboi() {
               PrBoi
             </h1>
             <p className="mt-4 mb-8">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Architecto quia blanditiis esse! Perferendis rem laborum assumenda
-              aliquid fugiat aut libero dolore, possimus esse fuga aspernatur
-              rerum accusamus ad sit temporibus?
+              PRBoi is a gym apparel brand that understands the importance of
+              comfort, style, and performance. Our minimalist designs let your
+              physique take center stage, while our high-quality fabrics and
+              flattering fits ensure you feel and look your best during your
+              workouts.
             </p>
             <Link
               href={""}
