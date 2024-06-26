@@ -36,7 +36,7 @@ export default function Home() {
         <div className="">
           <h1
             className={`${HalantFont.className} text-[#BF3131] text-[40px] lg:text-[64px] font-bold`}>
-            Sandang Group Creativity and Style
+            Sandang Group
           </h1>
           <p className={`${PoppinsFont.className} text-md mt-4 mb-10 pr-7`}>
             Sandang Group is not just another company, we are a community of

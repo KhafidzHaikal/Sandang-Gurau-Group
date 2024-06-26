@@ -18,7 +18,7 @@ export default function Clients() {
   ]}
   >
   <CarouselContent>
-    <CarouselItem className="basis-1/3 lg:basis-1/5">
+    <CarouselItem className="basis-1/3 lg:basis-1/5 flex justify-center items-center">
       <Image
         src={"/img/pertamina.png"}
         width={200}
@@ -27,43 +27,43 @@ export default function Clients() {
         alt=""
       />
     </CarouselItem>
-    <CarouselItem className="basis-1/3 lg:basis-1/5">
+    <CarouselItem className="basis-1/3 lg:basis-1/5 flex justify-center items-center ">
       <Image
-        src={"/img/shopee.png"}
+        src={"/img/logo.png"}
         width={200}
         height={200}
         sizes="100vh"
         alt=""
       />
     </CarouselItem>
-    <CarouselItem className="basis-1/3 lg:basis-1/5">
+    <CarouselItem className="basis-1/3 lg:basis-1/5 flex justify-center items-center ">
       <Image
-        src={"/img/traveloka.png"}
+        src={"/img/sasfy.png"}
         width={200}
         height={200}
         sizes="100vh"
         alt=""
       />
     </CarouselItem>
-    <CarouselItem className="basis-1/3 lg:basis-1/5">
+    <CarouselItem className="basis-1/3 lg:basis-1/5 flex justify-center items-center ">
       <Image
-        src={"/img/gojek.png"}
+        src={"/img/plain.png"}
         width={200}
         height={200}
         sizes="100vh"
         alt=""
       />
     </CarouselItem>
-    <CarouselItem className="basis-1/3 lg:basis-1/5">
+    <CarouselItem className="basis-1/3 lg:basis-1/5 flex justify-center items-center ">
       <Image
-        src={"/img/prime.png"}
+        src={"/img/prboi.png"}
         width={200}
         height={200}
         sizes="100vh"
         alt=""
       />
     </CarouselItem>
-    <CarouselItem className="basis-1/3 lg:basis-1/5">
+    <CarouselItem className="basis-1/3 lg:basis-1/5 flex justify-center items-center">
       <Image
         src={"/img/pertamina.png"}
         width={200}
@@ -72,36 +72,36 @@ export default function Clients() {
         alt=""
       />
     </CarouselItem>
-    <CarouselItem className="basis-1/3 lg:basis-1/5">
+    <CarouselItem className="basis-1/3 lg:basis-1/5 flex justify-center items-center ">
       <Image
-        src={"/img/shopee.png"}
+        src={"/img/logo.png"}
         width={200}
         height={200}
         sizes="100vh"
         alt=""
       />
     </CarouselItem>
-    <CarouselItem className="basis-1/3 lg:basis-1/5">
+    <CarouselItem className="basis-1/3 lg:basis-1/5 flex justify-center items-center ">
       <Image
-        src={"/img/traveloka.png"}
+        src={"/img/sasfy.png"}
         width={200}
         height={200}
         sizes="100vh"
         alt=""
       />
     </CarouselItem>
-    <CarouselItem className="basis-1/3 lg:basis-1/5">
+    <CarouselItem className="basis-1/3 lg:basis-1/5 flex justify-center items-center ">
       <Image
-        src={"/img/gojek.png"}
+        src={"/img/plain.png"}
         width={200}
         height={200}
         sizes="100vh"
         alt=""
       />
     </CarouselItem>
-    <CarouselItem className="basis-1/3 lg:basis-1/5">
+    <CarouselItem className="basis-1/3 lg:basis-1/5 flex justify-center items-center ">
       <Image
-        src={"/img/prime.png"}
+        src={"/img/prboi.png"}
         width={200}
         height={200}
         sizes="100vh"
