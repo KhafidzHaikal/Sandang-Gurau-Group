@@ -62,8 +62,15 @@ export default function Home() {
                 Movie and Music Parody Collaboration Fashion that Tickles
                 Nostalgia
               </p>
-              <div className="mt-4 mb-8 md:mb-0 flex justify-center">
-                <div className="rounded-xl border-2 text-[#0C542B] border-[#0C542B] px-3 py-2 hover:bg-[#0C542B] hover:text-white mr-4 flex items-center gap-2">
+              <div className="mt-4 mb-8 md:mb-0">
+                <Link
+                  href={
+                    "https://linktr.ee/sandanggurau.id?fbclid=PAZXh0bgNhZW0CMTEAAaaBBIAcKYRjigPLdY_3t5v56qDKE9jqnezd45kKeIs5V-H1sgtN4JCkUEM_aem_PG6vw23QscfkkJGesHMXng"
+                  }
+                  className={`${LailaFont.className} rounded-xl border-2 text-[#0C542B] border-[#0C542B] px-3 py-2 hover:bg-[#0C542B] hover:text-white`}>
+                  Shop Now
+                </Link>
+                {/* <div className="rounded-xl border-2 text-[#0C542B] border-[#0C542B] px-3 py-2 hover:bg-[#0C542B] hover:text-white mr-4 flex items-center gap-2">
                   <SiShopee className="text-xl -mt-1" />
                   <Link
                     href={"https://shopee.co.id/sandanggurau.id"}
@@ -85,7 +92,7 @@ export default function Home() {
                     className={`${LailaFont.className}`}>
                     Sandanggurau
                   </Link>
-                </div>
+                </div> */}
               </div>
             </div>
             <Image
@@ -138,7 +145,7 @@ export default function Home() {
             </p>
             <div className="mt-10">
               <Link
-                href={""}
+                href={"https://www.instagram.com/sandanggurau.id?igsh=MXBmNGVvdWlodXBwcQ=="}
                 className={`rounded-xl border-2 text-white bg-[#F5252D] border-[#F6EB3A] px-3 py-2 hover:bg-[#F6EB3A] hover:text-black hover:border-[#F5252D]`}>
                 Take a Look
               </Link>
@@ -232,7 +239,7 @@ export default function Home() {
               <CarouselItem className="basis-1/2 lg:basis-1/5">
                 <div className="inline-block overflow-hidden rounded-xl">
                   <Image
-                    src={"/img/IMG_5058.jpg"}
+                    src={"https://i.ibb.co.com/s1kqYgz/IMG-5058.jpg"}
                     width={450}
                     height={450}
                     sizes="100vh"
@@ -248,7 +255,7 @@ export default function Home() {
               <CarouselItem className="basis-1/2 lg:basis-1/5">
                 <div className="inline-block overflow-hidden rounded-xl">
                   <Image
-                    src={"/img/IMG_5059.jpg"}
+                    src={"https://i.ibb.co.com/86WS1d5/IMG-5059.jpg"}
                     width={450}
                     height={450}
                     sizes="100vh"
@@ -264,7 +271,7 @@ export default function Home() {
               <CarouselItem className="basis-1/2 lg:basis-1/5">
                 <div className="inline-block overflow-hidden rounded-xl">
                   <Image
-                    src={"/img/IMG_5060.jpg"}
+                    src={"https://i.ibb.co.com/FWfNy5X/IMG-5060.jpg"}
                     width={450}
                     height={450}
                     sizes="100vh"
@@ -280,7 +287,7 @@ export default function Home() {
               <CarouselItem className="basis-1/2 lg:basis-1/5">
                 <div className="inline-block overflow-hidden rounded-xl">
                   <Image
-                    src={"/img/IMG_5061.jpg"}
+                    src={"https://i.ibb.co.com/wBMBhb9/IMG-5063.jpg"}
                     width={450}
                     height={450}
                     sizes="100vh"
@@ -296,7 +303,7 @@ export default function Home() {
               <CarouselItem className="basis-1/2 lg:basis-1/5">
                 <div className="inline-block overflow-hidden rounded-xl">
                   <Image
-                    src={"/img/IMG_5065.jpg"}
+                    src={"https://i.ibb.co.com/VVFnQH8/IMG-5065.jpg"}
                     width={450}
                     height={450}
                     sizes="100vh"
@@ -312,7 +319,7 @@ export default function Home() {
               <CarouselItem className="basis-1/2 lg:basis-1/5">
                 <div className="inline-block overflow-hidden rounded-xl">
                   <Image
-                    src={"/img/IMG_5067.jpg"}
+                    src={"https://i.ibb.co.com/V3nBXhx/IMG-5067.jpg"}
                     width={450}
                     height={450}
                     sizes="100vh"
@@ -328,7 +335,7 @@ export default function Home() {
               <CarouselItem className="basis-1/2 lg:basis-1/5">
                 <div className="inline-block overflow-hidden rounded-xl">
                   <Image
-                    src={"/img/IMG_5069.jpg"}
+                    src={"https://i.ibb.co.com/mHGwsMZ/IMG-5069.jpg"}
                     width={450}
                     height={450}
                     sizes="100vh"
@@ -344,7 +351,7 @@ export default function Home() {
               <CarouselItem className="basis-1/2 lg:basis-1/5">
                 <div className="inline-block overflow-hidden rounded-xl">
                   <Image
-                    src={"/img/IMG_5070.jpg"}
+                    src={"https://i.ibb.co.com/hCf7M8M/IMG-5070.jpg"}
                     width={450}
                     height={450}
                     sizes="100vh"
@@ -360,7 +367,7 @@ export default function Home() {
               <CarouselItem className="basis-1/2 lg:basis-1/5">
                 <div className="inline-block overflow-hidden rounded-xl">
                   <Image
-                    src={"/img/IMG_5071.jpg"}
+                    src={"https://i.ibb.co.com/vjRKSwK/IMG-5071.jpg"}
                     width={450}
                     height={450}
                     sizes="100vh"
@@ -376,7 +383,7 @@ export default function Home() {
               <CarouselItem className="basis-1/2 lg:basis-1/5">
                 <div className="inline-block overflow-hidden rounded-xl">
                   <Image
-                    src={"/img/IMG_5073.jpg"}
+                    src={"https://i.ibb.co.com/7X7TYj0/IMG-5073.jpg"}
                     width={450}
                     height={450}
                     sizes="100vh"
@@ -392,7 +399,7 @@ export default function Home() {
               <CarouselItem className="basis-1/2 lg:basis-1/5">
                 <div className="inline-block overflow-hidden rounded-xl">
                   <Image
-                    src={"/img/IMG_5074.jpg"}
+                    src={"https://i.ibb.co.com/RSqtMhQ/IMG-5074.jpg"}
                     width={450}
                     height={450}
                     sizes="100vh"
@@ -408,7 +415,7 @@ export default function Home() {
               <CarouselItem className="basis-1/2 lg:basis-1/5">
                 <div className="inline-block overflow-hidden rounded-xl">
                   <Image
-                    src={"/img/IMG_5075.jpg"}
+                    src={"https://i.ibb.co.com/m43dsMk/IMG-5075.jpg"}
                     width={450}
                     height={450}
                     sizes="100vh"
@@ -424,7 +431,7 @@ export default function Home() {
               <CarouselItem className="basis-1/2 lg:basis-1/5">
                 <div className="inline-block overflow-hidden rounded-xl">
                   <Image
-                    src={"/img/IMG_5077.jpg"}
+                    src={"https://i.ibb.co.com/wc7QGNC/IMG-5077.jpg"}
                     width={450}
                     height={450}
                     sizes="100vh"

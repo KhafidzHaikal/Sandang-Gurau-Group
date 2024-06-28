@@ -66,7 +66,7 @@ export default function SasfyPage() {
                 <IoArrowRedoCircleSharp className="text-xl" />
               </Button>
             </Link>
-            <a href={"#layanan-kami"}>
+            <a href={"https://www.instagram.com/sasfydevs/?igsh=czlreXJ1d3oyOWxy&utm_source=qr"}>
               <Button className="rounded-full py-6 flex items-center gap-2 opacity-30 hover:text-white mx-auto sm:mx-0 mt-4 sm:mt-0">
                 Tentang Kami <IoArrowForward className="text-xl" />
               </Button>

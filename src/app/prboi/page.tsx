@@ -3,11 +3,6 @@ import Navbar from "@/components/navbar";
 import Image from "next/image";
 import { Bayon, Play } from "next/font/google";
 import Link from "next/link";
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-} from "@/components/ui/carousel";
 import Footer from "@/components/footer";
 import type { Metadata } from "next";
 
@@ -46,7 +41,7 @@ export default function Prboi() {
             greatness. vivamus.
           </p>
           <Link
-            href={""}
+            href={"https://linktr.ee/prboi.wardrobe?fbclid=PAZXh0bgNhZW0CMTEAAaaEO-S8aTGNQzy7lHZu3VMCs5lt_XfyJxi-VJabTfVOq1sh1OaCWpQDkoM_aem_1_LRChZNchngvP7DLlJaKA"}
             className={`${PlayFont.className} text-[#850F8D] py-3 px-10 border-[#850F8D] border-2 mt-4 rounded-sm hover:text-white hover:bg-[#850F8D]`}>
             Shop Now
           </Link>
