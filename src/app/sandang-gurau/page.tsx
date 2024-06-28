@@ -145,7 +145,9 @@ export default function Home() {
             </p>
             <div className="mt-10">
               <Link
-                href={"https://www.instagram.com/sandanggurau.id?igsh=MXBmNGVvdWlodXBwcQ=="}
+                href={
+                  "https://www.instagram.com/sandanggurau.id?igsh=MXBmNGVvdWlodXBwcQ=="
+                }
                 className={`rounded-xl border-2 text-white bg-[#F5252D] border-[#F6EB3A] px-3 py-2 hover:bg-[#F6EB3A] hover:text-black hover:border-[#F5252D]`}>
                 Take a Look
               </Link>
@@ -171,47 +173,14 @@ export default function Home() {
               find your favorite outfit!
             </p>
           </div>
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-3">
-            <div className="">
-              <Image
-                src={"https://i.ibb.co.com/9T6xrtn/img2.jpg"}
-                width={350}
-                height={350}
-                sizes="100vh"
-                alt="Image 1"
-                className="rounded-xl border-2 border-[#F5252D] mx-auto"
-              />
-            </div>
-            <div className="">
-              <Image
-                src={"https://i.ibb.co.com/9T6xrtn/img2.jpg"}
-                width={350}
-                height={350}
-                sizes="100vh"
-                alt="Image 1"
-                className="rounded-xl border-2 border-[#F5252D] mx-auto"
-              />
-            </div>
-            <div className="">
-              <Image
-                src={"https://i.ibb.co.com/9T6xrtn/img2.jpg"}
-                width={350}
-                height={350}
-                sizes="100vh"
-                alt="Image 1"
-                className="rounded-xl border-2 border-[#F5252D] mx-auto"
-              />
-            </div>
-            <div className="">
-              <Image
-                src={"https://i.ibb.co.com/9T6xrtn/img2.jpg"}
-                width={350}
-                height={350}
-                sizes="100vh"
-                alt="Image 1"
-                className="rounded-xl border-2 border-[#F5252D] mx-auto"
-              />
-            </div>
+          <div className="">
+            <script
+              src="https://static.elfsight.com/platform/platform.js"
+              data-use-service-core
+              defer></script>
+            <div
+              className="elfsight-app-a46e7e76-cbac-4fd6-bbc4-424aae6a4fbd"
+              data-elfsight-app-lazy></div>
           </div>
         </div>
       </section>
