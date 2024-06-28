@@ -39,12 +39,12 @@ const Josefin = Josefin_Sans({ subsets: ["latin"] });
 
 const components: { title: string; href: string; description: string }[] = [
   {
-    title: "Tete",
+    title: "Tete Industries",
     href: "/tete",
     description: "Realize your style with screen printing or shirt printing",
   },
   {
-    title: "Sandang Gurau (Fasion)",
+    title: "Sandang Gurau",
     href: "/sandang-gurau",
     description:
       "Movie and Music Parody Collaboration Fashion that Tickles Nostalgia",

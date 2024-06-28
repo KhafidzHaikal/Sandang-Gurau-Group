@@ -14,6 +14,12 @@ const nextConfig = {
                 port: '',
                 pathname: '/free-photo/**',
             },
+            {
+                protocol: 'https',
+                hostname: 'i.ibb.co',
+                port: '',
+                pathname: '/**',
+            }
         ],
     },
 };

@@ -3,6 +3,7 @@ import Navbar from "@/components/navbar";
 import Image from "next/image";
 import { Laila } from "next/font/google";
 import { Josefin_Sans } from "next/font/google";
+import { SiShopee } from "react-icons/si";
 import Link from "next/link";
 import {
   Carousel,
@@ -61,12 +62,30 @@ export default function Home() {
                 Movie and Music Parody Collaboration Fashion that Tickles
                 Nostalgia
               </p>
-              <div className="mt-4 mb-8 md:mb-0">
-                <Link
-                  href={""}
-                  className={`${LailaFont.className} rounded-xl border-2 text-[#0C542B] border-[#0C542B] px-3 py-2 hover:bg-[#0C542B] hover:text-white`}>
-                  Order Now
-                </Link>
+              <div className="mt-4 mb-8 md:mb-0 flex justify-center">
+                <div className="rounded-xl border-2 text-[#0C542B] border-[#0C542B] px-3 py-2 hover:bg-[#0C542B] hover:text-white mr-4 flex items-center gap-2">
+                  <SiShopee className="text-xl -mt-1" />
+                  <Link
+                    href={"https://shopee.co.id/sandanggurau.id"}
+                    className={`${LailaFont.className}`}>
+                    Sandanggurau.id
+                  </Link>
+                </div>
+                <div className="rounded-xl border-2 text-[#0C542B] border-[#0C542B] px-3 py-2 hover:bg-[#0C542B] hover:text-white mr-4 flex items-center gap-2">
+                  <Image
+                    src="https://i.ibb.co.com/8m7DXZR/1691990957tokopedia-icon-png.png"
+                    width={20}
+                    height={20}
+                    sizes="100vh"
+                    alt=""
+                    className="-mt-1"
+                  />
+                  <Link
+                    href={"https://www.tokopedia.com/sandanggurau"}
+                    className={`${LailaFont.className}`}>
+                    Sandanggurau
+                  </Link>
+                </div>
               </div>
             </div>
             <Image
@@ -213,81 +232,209 @@ export default function Home() {
               <CarouselItem className="basis-1/2 lg:basis-1/5">
                 <div className="inline-block overflow-hidden rounded-xl">
                   <Image
-                    src={"https://i.ibb.co.com/WfStm7L/baju1.jpg"}
+                    src={"/img/IMG_5058.jpg"}
                     width={450}
                     height={450}
                     sizes="100vh"
                     alt=""
-                    className="rounded-xl border-2 border-[#F5252D] mx-auto hover:scale-110 duration-500 transition-transform h-48 lg:object-none lg:h-96"
+                    className="rounded-xl border-2 border-[#F5252D] mx-auto hover:scale-110 duration-500 transition-transform h-48  lg:h-72"
                   />
                 </div>
                 <div
-                  className={`${LailaFont.className} text-left text-white mt-3`}>
-                  <h2>Kaos U2 x Chinese</h2>
+                  className={`${LailaFont.className} text-left text-white mt-3 `}>
+                  <h2>RINTO HARAP CLASSIC POP</h2>
                 </div>
               </CarouselItem>
               <CarouselItem className="basis-1/2 lg:basis-1/5">
                 <div className="inline-block overflow-hidden rounded-xl">
                   <Image
-                    src={"https://i.ibb.co.com/WfStm7L/baju1.jpg"}
+                    src={"/img/IMG_5059.jpg"}
                     width={450}
                     height={450}
                     sizes="100vh"
                     alt=""
-                    className="rounded-xl border-2 border-[#F5252D] mx-auto hover:scale-110 duration-500 transition-transform h-48 lg:object-none lg:h-96"
+                    className="rounded-xl border-2 border-[#F5252D] mx-auto hover:scale-110 duration-500 transition-transform h-48 lg:h-72"
                   />
                 </div>
                 <div
                   className={`${LailaFont.className} text-left text-white mt-3`}>
-                  <h2>Kaos U2 x Chinese</h2>
+                  <h2>U2 GLORIA CHINESE EDITION</h2>
                 </div>
               </CarouselItem>
               <CarouselItem className="basis-1/2 lg:basis-1/5">
                 <div className="inline-block overflow-hidden rounded-xl">
                   <Image
-                    src={"https://i.ibb.co.com/WfStm7L/baju1.jpg"}
+                    src={"/img/IMG_5060.jpg"}
                     width={450}
                     height={450}
                     sizes="100vh"
                     alt=""
-                    className="rounded-xl border-2 border-[#F5252D] mx-auto hover:scale-110 duration-500 transition-transform h-48 lg:object-none lg:h-96"
+                    className="rounded-xl border-2 border-[#F5252D] mx-auto hover:scale-110 duration-500 transition-transform h-48 lg:h-72"
                   />
                 </div>
                 <div
                   className={`${LailaFont.className} text-left text-white mt-3`}>
-                  <h2>Kaos U2 x Chinese</h2>
+                  <h2>RAJA POP X RAJA LELE</h2>
                 </div>
               </CarouselItem>
               <CarouselItem className="basis-1/2 lg:basis-1/5">
                 <div className="inline-block overflow-hidden rounded-xl">
                   <Image
-                    src={"https://i.ibb.co.com/WfStm7L/baju1.jpg"}
+                    src={"/img/IMG_5061.jpg"}
                     width={450}
                     height={450}
                     sizes="100vh"
                     alt=""
-                    className="rounded-xl border-2 border-[#F5252D] mx-auto hover:scale-110 duration-500 transition-transform h-48 lg:object-none lg:h-96"
+                    className="rounded-xl border-2 border-[#F5252D] mx-auto hover:scale-110 duration-500 transition-transform h-48 lg:h-72"
                   />
                 </div>
                 <div
                   className={`${LailaFont.className} text-left text-white mt-3`}>
-                  <h2>Kaos U2 x Chinese</h2>
+                  <h2>RAJA POP X RAJA LELE</h2>
                 </div>
               </CarouselItem>
               <CarouselItem className="basis-1/2 lg:basis-1/5">
                 <div className="inline-block overflow-hidden rounded-xl">
                   <Image
-                    src={"https://i.ibb.co.com/WfStm7L/baju1.jpg"}
+                    src={"/img/IMG_5065.jpg"}
                     width={450}
                     height={450}
                     sizes="100vh"
                     alt=""
-                    className="rounded-xl border-2 border-[#F5252D] mx-auto hover:scale-110 duration-500 transition-transform h-48 lg:object-none lg:h-96"
+                    className="rounded-xl border-2 border-[#F5252D] mx-auto hover:scale-110 duration-500 transition-transform h-48 lg:h-72"
                   />
                 </div>
                 <div
                   className={`${LailaFont.className} text-left text-white mt-3`}>
-                  <h2>Kaos U2 x Chinese</h2>
+                  <h2>U2 GLORIA CHINESE EDITION</h2>
+                </div>
+              </CarouselItem>
+              <CarouselItem className="basis-1/2 lg:basis-1/5">
+                <div className="inline-block overflow-hidden rounded-xl">
+                  <Image
+                    src={"/img/IMG_5067.jpg"}
+                    width={450}
+                    height={450}
+                    sizes="100vh"
+                    alt=""
+                    className="rounded-xl border-2 border-[#F5252D] mx-auto hover:scale-110 duration-500 transition-transform h-48 lg:h-72"
+                  />
+                </div>
+                <div
+                  className={`${LailaFont.className} text-left text-white mt-3`}>
+                  <h2>THE DOORS X DEDDY DORES</h2>
+                </div>
+              </CarouselItem>
+              <CarouselItem className="basis-1/2 lg:basis-1/5">
+                <div className="inline-block overflow-hidden rounded-xl">
+                  <Image
+                    src={"/img/IMG_5069.jpg"}
+                    width={450}
+                    height={450}
+                    sizes="100vh"
+                    alt=""
+                    className="rounded-xl border-2 border-[#F5252D] mx-auto hover:scale-110 duration-500 transition-transform h-48 lg:h-72"
+                  />
+                </div>
+                <div
+                  className={`${LailaFont.className} text-left text-white mt-3`}>
+                  <h2>THE DOORS X DEDDY DORES</h2>
+                </div>
+              </CarouselItem>
+              <CarouselItem className="basis-1/2 lg:basis-1/5">
+                <div className="inline-block overflow-hidden rounded-xl">
+                  <Image
+                    src={"/img/IMG_5070.jpg"}
+                    width={450}
+                    height={450}
+                    sizes="100vh"
+                    alt=""
+                    className="rounded-xl border-2 border-[#F5252D] mx-auto hover:scale-110 duration-500 transition-transform h-48 lg:h-72"
+                  />
+                </div>
+                <div
+                  className={`${LailaFont.className} text-left text-white mt-3`}>
+                  <h2>DUL ANAK SEKOLAHAN</h2>
+                </div>
+              </CarouselItem>
+              <CarouselItem className="basis-1/2 lg:basis-1/5">
+                <div className="inline-block overflow-hidden rounded-xl">
+                  <Image
+                    src={"/img/IMG_5071.jpg"}
+                    width={450}
+                    height={450}
+                    sizes="100vh"
+                    alt=""
+                    className="rounded-xl border-2 border-[#F5252D] mx-auto hover:scale-110 duration-500 transition-transform h-48 lg:h-72"
+                  />
+                </div>
+                <div
+                  className={`${LailaFont.className} text-left text-white mt-3`}>
+                  <h2>KISS PLUS</h2>
+                </div>
+              </CarouselItem>
+              <CarouselItem className="basis-1/2 lg:basis-1/5">
+                <div className="inline-block overflow-hidden rounded-xl">
+                  <Image
+                    src={"/img/IMG_5073.jpg"}
+                    width={450}
+                    height={450}
+                    sizes="100vh"
+                    alt=""
+                    className="rounded-xl border-2 border-[#F5252D] mx-auto hover:scale-110 duration-500 transition-transform h-48 lg:h-72"
+                  />
+                </div>
+                <div
+                  className={`${LailaFont.className} text-left text-white mt-3`}>
+                  <h2>KISS PLUS</h2>
+                </div>
+              </CarouselItem>
+              <CarouselItem className="basis-1/2 lg:basis-1/5">
+                <div className="inline-block overflow-hidden rounded-xl">
+                  <Image
+                    src={"/img/IMG_5074.jpg"}
+                    width={450}
+                    height={450}
+                    sizes="100vh"
+                    alt=""
+                    className="rounded-xl border-2 border-[#F5252D] mx-auto hover:scale-110 duration-500 transition-transform h-48 lg:h-72"
+                  />
+                </div>
+                <div
+                  className={`${LailaFont.className} text-left text-white mt-3`}>
+                  <h2>BROERY X BOWIE</h2>
+                </div>
+              </CarouselItem>
+              <CarouselItem className="basis-1/2 lg:basis-1/5">
+                <div className="inline-block overflow-hidden rounded-xl">
+                  <Image
+                    src={"/img/IMG_5075.jpg"}
+                    width={450}
+                    height={450}
+                    sizes="100vh"
+                    alt=""
+                    className="rounded-xl border-2 border-[#F5252D] mx-auto hover:scale-110 duration-500 transition-transform h-48 lg:h-72"
+                  />
+                </div>
+                <div
+                  className={`${LailaFont.className} text-left text-white mt-3`}>
+                  <h2>BROERY X BOWIE</h2>
+                </div>
+              </CarouselItem>
+              <CarouselItem className="basis-1/2 lg:basis-1/5">
+                <div className="inline-block overflow-hidden rounded-xl">
+                  <Image
+                    src={"/img/IMG_5077.jpg"}
+                    width={450}
+                    height={450}
+                    sizes="100vh"
+                    alt=""
+                    className="rounded-xl border-2 border-[#F5252D] mx-auto hover:scale-110 duration-500 transition-transform h-48 lg:h-72"
+                  />
+                </div>
+                <div
+                  className={`${LailaFont.className} text-left text-white mt-3`}>
+                  <h2>RINTO HARAP CLASSIC POP</h2>
                 </div>
               </CarouselItem>
             </CarouselContent>
