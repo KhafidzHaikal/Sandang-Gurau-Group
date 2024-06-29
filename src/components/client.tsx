@@ -63,6 +63,15 @@ export default function Clients() {
         alt=""
       />
     </CarouselItem>
+    <CarouselItem className="basis-1/3 lg:basis-1/5 flex justify-center items-center ">
+      <Image
+        src={"/img/tete-industries.png"}
+        width={200}
+        height={200}
+        sizes="100vh"
+        alt=""
+      />
+    </CarouselItem>
     <CarouselItem className="basis-1/3 lg:basis-1/5 flex justify-center items-center">
       <Image
         src={"/img/pertamina.png"}
@@ -102,6 +111,15 @@ export default function Clients() {
     <CarouselItem className="basis-1/3 lg:basis-1/5 flex justify-center items-center ">
       <Image
         src={"/img/prboi.png"}
+        width={200}
+        height={200}
+        sizes="100vh"
+        alt=""
+      />
+    </CarouselItem>
+    <CarouselItem className="basis-1/3 lg:basis-1/5 flex justify-center items-center ">
+      <Image
+        src={"/img/tete-industries.png"}
         width={200}
         height={200}
         sizes="100vh"
