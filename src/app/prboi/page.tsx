@@ -26,8 +26,10 @@ export default function Prboi() {
       <div className="text-white">
         <Navbar />
       </div>
-      <section className="h-screen bg-[#09080A] flex items-center">
-        <div className="lg:w-1/2 text-left ml-8 lg:ml-24">
+      {/* <section className="h-screen bg-[#09080A] flex items-center"> */}
+      <section className="h-screen flex items-center">
+        <h1>PRBoi Hidden</h1>
+        {/* <div className="lg:w-1/2 text-left ml-8 lg:ml-24">
           <h1
             className={`${BayonFont.className} text-white text-[40px] lg:text-[64px]`}>
             Look dashing <span className="text-[#850F8D]"> wherever</span> and{" "}
@@ -54,9 +56,9 @@ export default function Prboi() {
             sizes="100vh"
             alt="Image 1"
           />
-        </div>
+        </div> */}
       </section>
-      <section className={`${PlayFont.className} h-full bg-[#09080A]`}>
+      {/* <section className={`${PlayFont.className} h-full bg-[#09080A]`}>
         <div className="container flex justify-center">
           <h1 className="text-white text-[40px] lg:text-[64px] font-bold z-10 text-center mb-10">
             CHOOSE<span className="text-[#850F8D]"> THE BEST </span>
@@ -242,7 +244,7 @@ export default function Prboi() {
             />
           </div>
         </div>
-      </section>
+      </section> */}
       <Footer />
     </main>
   );

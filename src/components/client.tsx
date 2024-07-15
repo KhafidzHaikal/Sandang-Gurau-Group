@@ -54,7 +54,7 @@ export default function Clients() {
         alt=""
       />
     </CarouselItem>
-    <CarouselItem className="basis-1/3 lg:basis-1/5 flex justify-center items-center ">
+    {/* <CarouselItem className="basis-1/3 lg:basis-1/5 flex justify-center items-center ">
       <Image
         src={"/img/prboi.png"}
         width={200}
@@ -62,7 +62,7 @@ export default function Clients() {
         sizes="100vh"
         alt=""
       />
-    </CarouselItem>
+    </CarouselItem> */}
     <CarouselItem className="basis-1/3 lg:basis-1/5 flex justify-center items-center ">
       <Image
         src={"/img/tete-industries.png"}
@@ -108,7 +108,7 @@ export default function Clients() {
         alt=""
       />
     </CarouselItem>
-    <CarouselItem className="basis-1/3 lg:basis-1/5 flex justify-center items-center ">
+    {/* <CarouselItem className="basis-1/3 lg:basis-1/5 flex justify-center items-center ">
       <Image
         src={"/img/prboi.png"}
         width={200}
@@ -116,7 +116,7 @@ export default function Clients() {
         sizes="100vh"
         alt=""
       />
-    </CarouselItem>
+    </CarouselItem> */}
     <CarouselItem className="basis-1/3 lg:basis-1/5 flex justify-center items-center ">
       <Image
         src={"/img/tete-industries.png"}

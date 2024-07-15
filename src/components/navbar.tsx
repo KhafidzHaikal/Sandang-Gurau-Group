@@ -49,12 +49,12 @@ const components: { title: string; href: string; description: string }[] = [
     description:
       "Movie and Music Parody Collaboration Fashion that Tickles Nostalgia",
   },
-  {
-    title: "Prboi",
-    href: "/prboi",
-    description:
-      "PRBoi is a gym apparel brand that understands the importance of comfort, style, and performance",
-  },
+  // {
+  //   title: "Prboi",
+  //   href: "/prboi",
+  //   description:
+  //     "PRBoi is a gym apparel brand that understands the importance of comfort, style, and performance",
+  // },
   {
     title: "Plain Habit",
     href: "/plain-habit",
@@ -136,11 +136,11 @@ export default function Navbar() {
                           Sandang Gurau (Fasion)
                         </Link>
                       </DropdownMenuItem>
-                      <DropdownMenuItem>
+                      {/* <DropdownMenuItem>
                         <Link href={"/prboi"} className="w-full">
                           Prboi
                         </Link>
-                      </DropdownMenuItem>
+                      </DropdownMenuItem> */}
                       <DropdownMenuItem>
                         <Link href={"/plain-habit"} className="w-full">
                           Plain Habit

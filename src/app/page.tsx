@@ -95,27 +95,27 @@ export default function Home() {
               </p>
             </CarouselItem>
             <CarouselItem className="sm:basis-1/2 lg:basis-1/4">
-              <Link href={"/prboi"}>
+              <Link href={"/sandang-gurau"}>
                 <div className="bg-gradient-to-b from-white/5 from-10% via-transparent via-80% to-black/40 to-90% relative w-full">
                   <div className=" mix-blend-overlay overflow-hidden">
                     <Image
-                      src={"/img/home-2.png"}
+                      src={"https://i.ibb.co.com/9T6xrtn/img2.jpg"}
                       width={300}
-                      height={400}
+                      height={200}
                       sizes="100vh"
-                      alt="Pr Boi"
-                      className="rounded-t-3xl w-full hover:scale-110 duration-500 transition-transform"
+                      alt="Sandang Gurau"
+                      className="rounded-t-3xl w-full hover:scale-110 duration-500 h-[22rem] object-cover transition-transform"
                     />
                   </div>
                   <div className="absolute bottom-4 left-4 text-white w-full">
                     <div className="flex justify-between items-center gap-4">
-                      <p className={`${PoppinsFont.className}`}>Pr Boi</p>
+                      <p className={`${PoppinsFont.className}`}>Sandang Gurau</p>
                       <GoLinkExternal className="text-xl mr-10" />
                     </div>
                   </div>
                 </div>
               </Link>
-              <p className={`${PoppinsFont.className} mt-4`}>Kaos UNFAZED</p>
+              <p className={`${PoppinsFont.className} mt-4 capitalize`}>U2 Gloria Chinese Edition</p>
             </CarouselItem>
             <CarouselItem className="sm:basis-1/2 lg:basis-1/4">
               <Link href={"/plain-habit"}>
@@ -126,7 +126,7 @@ export default function Home() {
                       width={300}
                       height={400}
                       sizes="100vh"
-                      alt="Pr Boi"
+                      alt="Sandang Gurau"
                       className="rounded-t-3xl w-full hover:scale-110 duration-500 transition-transform"
                     />
                   </div>
@@ -149,7 +149,7 @@ export default function Home() {
                       width={300}
                       height={400}
                       sizes="100vh"
-                      alt="Pr Boi"
+                      alt="Sandang Gurau"
                       className="rounded-t-3xl w-full hover:scale-110 duration-500 transition-transform"
                     />
                   </div>
