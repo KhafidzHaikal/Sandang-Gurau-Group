@@ -4,6 +4,7 @@ import NextTopLoader from "nextjs-toploader";
 
 import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
+import { Analytics } from '@vercel/analytics/react';
 
 export const metadata: Metadata = {
   title: "Sandang Group",
@@ -31,6 +32,7 @@ export default function RootLayout({
           shadow="0 0 10px #2299DD,0 0 5px #2299DD"
         />
         {children}
+        <Analytics />
       </body>
     </html>
   );
