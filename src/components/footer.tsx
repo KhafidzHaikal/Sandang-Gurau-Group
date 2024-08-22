@@ -40,7 +40,9 @@ export default function Footer() {
           <div className={`${PoppinsFont.className} lg:-mt-10`}>
             <strong className="text-sm text-[#FC1111]">Service</strong>
             <ul>
-              <li className="my-3 text-sm">Contact Us</li>
+              <li className="my-3 text-sm">
+                <a href="https://wa.me/6281292702020">Contact Us</a>
+              </li>
               <li className="mb-3 text-sm">Blog</li>
               <li className="mb-3 text-sm">About Us</li>
             </ul>

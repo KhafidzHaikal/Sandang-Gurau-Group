@@ -44,7 +44,7 @@ export default function Home() {
             experiences for you.
           </p>
           <Link
-            href={""}
+            href={"https://wa.me/6281292702020"}
             className={`${PoppinsFont.className} text-[#BF3131] py-3 px-10 border-[#BF3131] border-2 mt-4 rounded-sm hover:text-white hover:bg-[#BF3131]`}>
             Read More
           </Link>
