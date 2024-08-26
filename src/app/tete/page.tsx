@@ -49,7 +49,7 @@ export default function Tete() {
               from Tete! Contact us today and get a great deal.
             </p>
             <Link
-              href={""}
+              href={"https://wa.me/6281292702020"}
               className={`${Local.className} text-black py-3 px-10 border-black border-2 mt-4 rounded-sm hover:text-white hover:bg-black`}>
               Order Now
             </Link>
@@ -294,7 +294,7 @@ export default function Tete() {
           </div>
           <div className="mt-8 sm:mt-0">
             <Link
-              href={""}
+              href={"https://wa.me/6281292702020"}
               className={`${Local.className} text-[#292929] py-2 px-10 bg-[#E2C799] border-[#E2C799] border-2 mt-4 rounded-sm hover:text-[#E2C799] hover:bg-[#292929]`}>
               Read More
             </Link>

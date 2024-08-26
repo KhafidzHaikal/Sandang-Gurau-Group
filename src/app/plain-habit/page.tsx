@@ -46,7 +46,7 @@ export default function PlainHabit() {
             Discover the Art of Simplicity and Elegance
           </p>
           <Link
-            href={""}
+            href={"https://wa.me/6281292702020"}
             className="py-2 px-6 border-2 rounded-lg shadow-lg bg-white text-[#0069B2] border-[#0069B2] hover:bg-[#0069B2] hover:text-white">
             Shop
           </Link>
@@ -98,7 +98,7 @@ export default function PlainHabit() {
             Habit shows consistency in maintaining simplicity itself.
           </p>
           <Link
-            href={""}
+            href={"https://wa.me/6281292702020"}
             className="py-2 px-6 border-2 rounded-lg shadow-lg bg-white text-[#0069B2] border-[#0069B2] hover:bg-[#0069B2] hover:text-white hover:border-white">
             Read More
           </Link>
