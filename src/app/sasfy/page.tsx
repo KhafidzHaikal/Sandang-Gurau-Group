@@ -91,7 +91,7 @@ export default function SasfyPage() {
           <div className="bg-white shadow-lg p-5 rounded-xl">
             <p className="font-bold">UMKM</p>
             <h1 className="text-[30px] my-7 font-bold text-[#16740A]">
-              Rp. 800 Ribu/Tahun
+              Rp. 5 Juta
             </h1>
             <ul className="mt-4">
               <li className="flex items-center mt-4">
@@ -122,7 +122,7 @@ export default function SasfyPage() {
           <div className="bg-white shadow-lg p-5 rounded-xl">
             <p className="font-bold">Bisnis</p>
             <h1 className="text-[30px] my-7 font-bold text-[#16740A]">
-              Rp. 2.5 Juta/Tahun
+              Rp. 10 Juta
             </h1>
             <ul className="mt-4">
               <li className="flex items-center mt-4">
@@ -153,7 +153,7 @@ export default function SasfyPage() {
           <div className="bg-white shadow-lg p-5 rounded-xl">
             <p className="font-medium">Profesional</p>
             <h1 className="text-[30px] my-7 font-bold text-[#16740A]">
-              Rp. 5 Juta/Tahun
+              Price Contact
             </h1>
             <ul className="mt-4">
               <li className="flex items-center mt-4">

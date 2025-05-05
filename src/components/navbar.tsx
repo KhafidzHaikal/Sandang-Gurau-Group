@@ -61,6 +61,11 @@ const components: { title: string; href: string; description: string }[] = [
     description: "Discover the Art of Simplicity and Elegance",
   },
   {
+    title: "JoFit Farm",
+    href: "/jofit-farm",
+    description: "Sapi dengan kualitas terbaik",
+  },
+  {
     title: "Sasfy",
     href: "/sasfy",
     description:
