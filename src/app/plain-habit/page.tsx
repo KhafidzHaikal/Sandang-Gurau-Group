@@ -315,7 +315,7 @@ export default function PlainHabit() {
               </h3>
               
               <p className="text-gray-600 text-center leading-relaxed">
-                We return money within 30 days if you're not completely satisfied with your purchase.
+                We return money within 30 days if you&apos;re not completely satisfied with your purchase.
               </p>
             </div>
           </div>

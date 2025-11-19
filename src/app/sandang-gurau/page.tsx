@@ -304,7 +304,7 @@ export default function Home() {
               TikTok Videos
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              Let's have some nostalgic fun with Sandang Gurau! We have funny
+              Let&apos;s have some nostalgic fun with Sandang Gurau! We have funny
               and unique movie and music parody clothes! Check out the videos and
               find your favorite outfit!
             </p>
