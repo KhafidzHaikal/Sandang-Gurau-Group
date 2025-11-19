@@ -66,7 +66,7 @@ export default function Footer() {
       <hr className="border-2 rounded-xl mt-4" />
       <div
         className={`${PoppinsFont.className} flex justify-between mb-4 text-[#FC1111] mt-2 text-sm`}>
-        <p>@copyright 2024.</p>
+        <p>@copyright 2025.</p>
         <p>Teams & Condition</p>
       </div>
     </footer>
